@@ -5,9 +5,10 @@ export function token(secret,expires){const p=String(expires);return p+'.'+creat
 export function authorized(cookie,secret){const v=(cookie||'').match(/(?:^|;\s*)sigma_session=([^;]+)/)?.[1]||'';const [expiry]=v.split('.');return Number(expiry)>Date.now()&&equal(v,token(secret,expiry));}
 export async function save(store,key,value,etag){return store.setJSON('data/'+key,value,etag?{onlyIfMatch:etag}:{onlyIfNew:true});}
 export default async function handler(req){
- const env=process.env,secret=env.SIGMA_SESSION_SECRET;
+ const env=process.env;
+ const secret=env.SIGMA_PASSWORD&&env.SIGMA_LOGIN?createHmac('sha256',env.SIGMA_PASSWORD).update('sigma-factory/session/v2:'+env.SIGMA_LOGIN).digest('hex'):'';
  const reply=(data,status=200,headers={})=>new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json','Cache-Control':'no-store',...headers}});
- if(!secret||secret.length<32||!env.SIGMA_PASSWORD||!env.SIGMA_LOGIN)return reply({error:'Configuration Netlify manquante : consultez README.md.'},503);
+ if(!env.SIGMA_PASSWORD||!env.SIGMA_LOGIN)return reply({error:'Configuration Netlify manquante : consultez README.md.'},503);
  const url=new URL(req.url),op=url.searchParams.get('op')||'state';
  if(req.method!=='GET'&&req.headers.get('origin')!==url.origin)return reply({error:'Origine refusée'},403);
  const cookie=(v)=>`sigma_session=${v}; Path=/; HttpOnly; SameSite=Strict; Max-Age=${v?28800:0}${url.protocol==='https:'?'; Secure':''}`;
