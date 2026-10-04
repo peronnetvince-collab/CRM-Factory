@@ -1,4 +1,4 @@
-/* Stockage partagé Netlify. Accès public sans authentification. */
+/* Stockage partagé Netlify. Accès administrateur authentifié côté serveur. */
 (()=>{
 const local=window.sigmaPreviewStorage,ready=window.sigmaStorageReady,api='/.netlify/functions/crm';
 let active=false,base={},pending=new Map(),busy=false,conflict=false,remoteWaiting=false;
@@ -7,7 +7,7 @@ const status=text=>{let el=document.getElementById('sigmaSharedStatus');if(!el){
 async function request(op,options={},key=''){
 let r;try{r=await fetch(api+'?op='+op+(key?'&key='+encodeURIComponent(key):''),{credentials:'same-origin',...options,headers:{...(options.body&&!(options.body instanceof ArrayBuffer)?{'Content-Type':'application/json'}:{}),...options.headers}});}catch{throw new Error('Connexion au serveur impossible. Vérifiez votre réseau puis réessayez.');}
 if(!r.ok){let err={};try{err=JSON.parse(await r.text());}catch{}
-const fallback=r.status===404?'Service de connexion absent sur Netlify. Redéployez le dépôt complet avec le dossier netlify/functions.':r.status===503?'Stockage Netlify indisponible : consultez les logs de la fonction crm.':r.status>=500?'Le service Netlify rencontre une erreur. Consultez les logs de la fonction crm.':'Connexion refusée (HTTP '+r.status+').';
+const fallback=r.status===404?'Service de connexion absent sur Netlify. Redéployez le dépôt complet avec le dossier netlify/functions.':r.status===503?'Connexion non configurée : renseignez SIGMA_LOGIN et SIGMA_PASSWORD dans Netlify, puis redéployez.':r.status>=500?'Le service Netlify rencontre une erreur. Consultez les logs de la fonction crm.':'Connexion refusée (HTTP '+r.status+').';
 throw Object.assign(new Error(err.error||fallback),{status:r.status});}
 if(op!=='file'){try{const value=JSON.parse(await r.clone().text());if(!value||typeof value!=='object')throw Error();}catch{throw new Error('Réponse serveur invalide ou vide. Vérifiez que la fonction crm est bien déployée dans Netlify.');}}
 return r;
