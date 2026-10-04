@@ -1,40 +1,40 @@
-# SIGMA Factory CRM — correctif connexion et déploiement Netlify
+# SIGMA Factory CRM — SIMPLE 1.2
 
-Cette version corrige la gestion des réponses serveur vides/404. Le déploiement lance `npm run build` et vérifie les fichiers nécessaires. La connexion fonctionne côté serveur ; le ZIP ne peut pas renseigner les variables privées de votre compte Netlify.
+CRM existant conservé, connexion serveur et sauvegarde partagée préparées pour Netlify.
 
-Pour remplacer la version actuelle : déposer tout le contenu du ZIP à la racine du dépôt GitHub existant, puis enregistrer les changements. Dans Netlify, conserver une base à la racine, la commande `npm run build`, le dossier publié `public` et le dossier fonctions `netlify/functions`. Renseigner les trois variables ci-dessous puis redéployer. La rubrique Functions doit ensuite afficher `crm`. Un simple dépôt du dossier public ne déploie pas la fonction.
+## Installer : cinq étapes
+1. Décompresser SIGMA_FACTORY_CRM_SIMPLE.zip avec « Extraire tout ».
+2. Dans le dépôt GitHub CRM-Factory, déposer tous les fichiers ET dossiers extraits à la racine, puis Commit changes sur main. Le ZIP n'a aucun dossier parent supplémentaire. Ne pas déplacer netlify.toml dans public, ne pas renommer crm.mjs ni supprimer ses extensions. Conserver le dépôt existant permet de garder son lien avec Netlify.
+3. Vérifier dans GitHub ces trois chemins : public/index.html ; netlify/functions/crm.mjs ; scripts/check-deploy.cjs. Le fichier package.json et netlify.toml doivent être au premier niveau.
+4. Dans Netlify → Environment variables, créer les deux variables ci-dessous, disponibles pour les fonctions.
+5. Dans Netlify → Deploys, attendre le nouveau déploiement Published. S'il ne démarre pas, Trigger deploy. La rubrique Functions doit afficher crm. Actualiser ensuite le site avec Ctrl + F5.
 
+## Variables privées à saisir dans Netlify
+| Nom | Valeur |
+| --- | --- |
+| SIGMA_LOGIN | FACTORY_Login |
+| SIGMA_PASSWORD | Le mot de passe partagé choisi dans la conversation |
 
-## Installer via GitHub / Netlify
-1. Décompresser le ZIP à la racine du dépôt GitHub, en conservant public/, netlify/, package.json et netlify.toml.
-2. Relier le dépôt à Netlify. Répertoire publié : public. Les fonctions sont dans netlify/functions. Netlify installe la dépendance @netlify/blobs.
-3. Dans Netlify > Environment variables, créer les variables suivantes, disponibles aux Functions :
-   - SIGMA_LOGIN : SIGMA_Factory
-   - SIGMA_PASSWORD : le mot de passe partagé demandé par le propriétaire (le saisir dans Netlify, jamais dans GitHub).
-   - SIGMA_SESSION_SECRET : une chaîne aléatoire d'au moins 32 caractères, distincte du mot de passe. Exemple de génération : node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
-4. Redéployer. Se connecter depuis deux navigateurs et effectuer les contrôles ci-dessous. Ouvrir le HTML directement ne fournit pas la synchronisation ; Netlify Functions doit fonctionner.
+La clé de session est dérivée automatiquement côté serveur à partir des identifiants privés. Aucun secret supplémentaire à saisir. Changer le mot de passe déconnecte les sessions existantes.
+Ne publier aucune de ces valeurs dans GitHub. Le ZIP ne peut pas configurer automatiquement le compte Netlify.
 
-## Ce qui est partagé
-Les écritures des leads, du Pipe, des relations, des contacts, des biens, des photos, des documents, de l'archivage, du Drive Pilote et de la mémoire de connaissances passent par un stockage Netlify Blobs commun au site. Les fichiers sont transmis en blocs de 512 Kio, les métadonnées par clé. Les dates et historiques existants sont conservés. Les brouillons et l'état de connexion restent propres au navigateur.
+## Réglages Netlify
+Base : racine du dépôt. Commande : npm run build. Dossier publié : public. Fonctions : netlify/functions. Node : 22. Tous ces réglages sont fournis dans netlify.toml. Les dépendances sont verrouillées dans package-lock.json.
 
-Un indicateur annonce les modifications en attente, la synchronisation, la sauvegarde confirmée ou une erreur. Une copie locale conserve les modifications en cas d'indisponibilité réseau. Ne pas fermer tant que la sauvegarde partagée n'est pas confirmée. Les nouvelles tentatives ont lieu toutes les cinq secondes ; en cas de panne prolongée, garder la page ouverte.
+## Ce que cette version vérifie
+Présence de tous les fichiers nécessaires et syntaxe JavaScript au build. Erreurs de connexion explicites pour un service absent, une réponse vide, une panne réseau ou une configuration manquante. Une session serveur valide ouvre la vue d'ensemble.
 
-## Fonctionnement multi-équipe et limites explicites
-- Vérification des mises à jour toutes les 5 secondes. Actualisation automatique hors saisie ; bouton Actualiser si une saisie a eu lieu. Ce n'est pas une synchronisation instantanée par WebSocket.
-- Écritures conditionnelles : une version ancienne ne peut pas écraser une version distante. En cas de conflit, les écritures sont bloquées et un bouton permet d'exporter les modifications non synchronisées. Après export, recharger puis ressaisir les changements à conserver. La fusion concurrente automatique n'est pas implémentée.
-- Les tableaux monolithiques signifient que deux équipes modifiant deux leads peuvent aussi déclencher un conflit. Pour un usage intensif, une base par dossier avec fusion par champ sera nécessaire.
-- L'accès partagé ne permet pas d'identifier individuellement chaque collaborateur. Les sessions durent 8 heures et utilisent un cookie HttpOnly.
-- Les données des versions locales antérieures ne sont pas automatiquement migrées vers un site déjà rempli. Sauvegarder/exporter avant migration et vérifier le résultat.
-- Métadonnées limitées à 3 Mo par écriture. Les documents distants restent des liens ; leurs droits d'accès dépendent de leur service d'origine. Le bot réalise une classification et des imports structurés existants, pas une compréhension universelle des PDF/Word.
-- Pas de sauvegarde externe planifiée ni de restauration par version serveur dans cette livraison : organiser les exports et sauvegardes avant un usage de production.
+## Données et travail partagé
+Les écritures des leads, contacts, biens, photos, documents, relations, archivages, Drive Pilote et mémoire de connaissances utilisent le stockage commun Netlify Blobs du même site. Les fichiers sont envoyés par blocs de 512 Kio. Les brouillons restent locaux. L'indicateur confirme la sauvegarde uniquement après réponse serveur ; garder la page ouverte tant que des modifications sont en attente.
+Les mises à jour des autres équipes sont vérifiées toutes les 5 secondes. Une actualisation est proposée pendant une saisie. Les écritures concurrentes sur une même clé sont refusées avec un message de conflit et un export des changements locaux ; la fusion automatique n'est pas implémentée. Deux dossiers différents peuvent déclencher ce conflit lorsque leur tableau partagé est le même. L'accès commun n'identifie pas individuellement chaque collaborateur.
 
-## Présentation Datathèque
-Colonnes sans retour à la ligne ; pseudo, source et taille alignés ; type, catégorie, date et état lisibles ; actions sur une seule ligne. Défilement horizontal conservé pour accéder à tous les rattachements et boutons, y compris sur tablette et téléphone.
+## Datathèque et connaissance
+Après dépôt, les tableaux métier reconnus alimentent les leads, biens ou contacts. Les textes explicatifs TXT/MD reconnus deviennent des articles sourcés dans la base de connaissance. Les fichiers ambigus et les formats sans lecteur sont marqués À vérifier. Le tri utilise des règles ; il ne comprend pas universellement les PDF, Word, images ou sites web. Les liens distants restent soumis aux autorisations de leur service d'origine.
 
-## Vérification après déploiement obligatoire
-A crée un lead puis attend « toutes les modifications sont sauvegardées ». B doit le voir après actualisation. Répéter pour un contact, un bien, une photo, un fichier, un rattachement et un archivage ; ouvrir le document depuis B. Modifier simultanément une même clé : la seconde sauvegarde doit afficher un conflit sans écraser la première. Couper le réseau : l'indicateur doit afficher une erreur et aucune fausse confirmation de sauvegarde.
+## Avant de travailler avec les équipes
+Tester depuis deux navigateurs : créer un lead, modifier un contact, déposer un document et une photo, rattacher une pièce, archiver puis restaurer. Attendre la confirmation de sauvegarde sur A et vérifier la lecture sur B. Tester également les conflits et une coupure réseau.
+Cette version n'est pas déployée par la livraison du ZIP. Les tests locaux ne remplacent pas cette validation Netlify réelle. Les anciennes données locales ne sont pas migrées automatiquement vers un site partagé déjà rempli. Sauvegarder les exports avant migration. Pas de sauvegarde externe planifiée ni de restauration serveur par version dans cette livraison.
 
-Les tests inclus s'exécutent avec npm install puis npm test et npm run test:shared. Les services Netlify réels et l'affichage dans un navigateur réel n'ont pas été validés dans cet environnement. Cette archive n'est pas déjà déployée.
-
-## Tri automatique après dépôt
-Chaque nouveau dépôt lance le traitement après son enregistrement. Les tableaux CSV/TSV/JSON/Excel reconnus alimentent les leads, biens ou contacts selon leur destination. Les textes explicatifs TXT/MD reconnus (guide, procédure, fonctionnement, écosystème…) deviennent des articles sourcés dans la base de connaissance, consultables par thème et recherche. Les imports restent idempotents. Les URL, PDF/Word/images sans lecteur et contenus ambigus sont marqués « À vérifier » ; leur contenu n'est pas inventé ni automatiquement importé. Cette version utilise des règles, pas un modèle IA universel. Le bouton Tri Bot & Push CRM permet de relancer un traitement après clarification.
+## Contrôles techniques
+npm ci ; npm run build ; npm test ; npm run test:shared.
+Les résultats et limites de validation sont dans CONTROLES_RESULTATS.txt et CONTROLES.md.

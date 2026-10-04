@@ -1,0 +1,9 @@
+SIGMA FACTORY CRM — ARCHIVE COMPLETE
+
+Décompresser ce ZIP. Déposer TOUT son contenu à la racine du dépôt GitHub CRM-Factory. Conserver les dossiers et extensions.
+
+La connexion dépend de netlify/functions/crm.mjs : ce fichier est inclus.
+
+Renseigner les 2 variables Netlify indiquées dans README.md, puis attendre un NOUVEAU déploiement Published.
+
+Ne pas déposer seulement public et ne pas déposer le ZIP non extrait.
