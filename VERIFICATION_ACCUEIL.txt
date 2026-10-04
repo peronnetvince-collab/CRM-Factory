@@ -1,0 +1,1 @@
+PASS : accueil seul sans défilement, tous les raccourcis demandent une connexion, formulaire admin et aucune erreur JS.

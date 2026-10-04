@@ -1,7 +1,7 @@
 {
   "name": "sigma-factory-crm",
   "private": true,
-  "version": "1.4.0",
+  "version": "1.5.0",
   "scripts": {
     "test": "node tests/run.cjs",
     "test:shared": "node tests/shared.cjs && node tests/shared-client.cjs && node tests/connection-errors.cjs && node tests/shared-boot.cjs",
