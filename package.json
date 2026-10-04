@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "scripts": {
     "test": "node tests/run.cjs",
-    "test:shared": "node tests/shared.cjs && node tests/shared-client.cjs"
+    "test:shared": "node tests/shared.cjs && node tests/shared-client.cjs && node tests/connection-errors.cjs",
+    "build": "node scripts/check-deploy.cjs"
   },
   "devDependencies": {
     "jsdom": "30.1.1"

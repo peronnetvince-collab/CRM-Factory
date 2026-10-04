@@ -7,3 +7,5 @@ Tests serveur avec stockage simulé : refus hors connexion, mauvais mot de passe
 Les scripts du client partagé et de la fonction serveur ont passé la vérification de syntaxe Node. Voir tests/results-current.txt pour les résultats.
 
 Ces contrôles ne constituent pas un test de déploiement Netlify, de performance, de sécurité exhaustif ou une validation visuelle en navigateur réel. Le protocole de validation entre deux postes figure dans README.md.
+
+Correctif connexion : tests réussis pour erreur 404 vide, 404 HTML, réponse 200 vide, configuration absente et mauvais mot de passe. Vérification de syntaxe et contrôle de présence des fichiers requis réussis. Pas de modification effectuée sur le site Netlify existant.

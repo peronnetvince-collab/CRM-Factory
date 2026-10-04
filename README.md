@@ -1,4 +1,9 @@
-# SIGMA Factory CRM — version partagée Netlify
+# SIGMA Factory CRM — correctif connexion et déploiement Netlify
+
+Cette version corrige la gestion des réponses serveur vides/404. Le déploiement lance `npm run build` et vérifie les fichiers nécessaires. La connexion fonctionne côté serveur ; le ZIP ne peut pas renseigner les variables privées de votre compte Netlify.
+
+Pour remplacer la version actuelle : déposer tout le contenu du ZIP à la racine du dépôt GitHub existant, puis enregistrer les changements. Dans Netlify, conserver une base à la racine, la commande `npm run build`, le dossier publié `public` et le dossier fonctions `netlify/functions`. Renseigner les trois variables ci-dessous puis redéployer. La rubrique Functions doit ensuite afficher `crm`. Un simple dépôt du dossier public ne déploie pas la fonction.
+
 
 ## Installer via GitHub / Netlify
 1. Décompresser le ZIP à la racine du dépôt GitHub, en conservant public/, netlify/, package.json et netlify.toml.
