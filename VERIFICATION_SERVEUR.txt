@@ -1,0 +1,42 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> sigma-factory-crm@1.4.0 test:shared
+> node tests/shared.cjs && node tests/shared-client.cjs && node tests/connection-errors.cjs && node tests/shared-boot.cjs
+
+PASS accès public sans variables : lecture, sauvegarde partagée, conflits sans écrasement, fichiers, origine étrangère refusée.
+PASS client : chargement commun, sauvegarde avec version, confirmation, exclusion brouillons.
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+AssertionError [ERR_ASSERTION]: The input did not match the regular expression /Connexion non configurée/. Input:
+
+'Error: Stockage Netlify indisponible : consultez les logs de la fonction crm.'
+
+    at async check (/workspace/sigma-factory-ouvert/tests/connection-errors.cjs:2:708)
+    at async /workspace/sigma-factory-ouvert/tests/connection-errors.cjs:3:242 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: Error: Stockage Netlify indisponible : consultez les logs de la fonction crm.
+      at request (evalmachine.<anonymous>:11:21)
+      at async Object.login (evalmachine.<anonymous>:21:49)
+      at async waitForActual (node:assert:646:5)
+      at async ok.rejects (node:assert:769:25)
+      at async check (/workspace/sigma-factory-ouvert/tests/connection-errors.cjs:2:708)
+      at async /workspace/sigma-factory-ouvert/tests/connection-errors.cjs:3:242 {
+    status: 503
+  },
+  expected: /Connexion non configurée/,
+  operator: 'rejects',
+  diff: 'simple'
+}
+
+Node.js v24.19.0
+PASS : build depuis un autre dossier et correction du chemin founctions, fonction conservée à l’identique.
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> sigma-factory-crm@1.4.0 build
+> node scripts/check-deploy.cjs
+
+Configuration CRM contrôlée. Netlify doit ensuite compiler et publier la fonction crm.
+PASS : accès direct sans formulaire → CRM ouvert sur la vue d’ensemble, aucune erreur JS.

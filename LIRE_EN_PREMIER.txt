@@ -1,0 +1,10 @@
+SIGMA FACTORY CRM — DÉPART PROPRE
+
+1. Extraire tout le ZIP.
+2. GitHub → Add file → Upload files.
+3. Glisser TOUT LE CONTENU extrait : fichiers ET dossiers, sans dossier parent.
+4. Ne pas renommer les dossiers. Commit changes sur main.
+5. Attendre Published dans Netlify.
+
+Sans login, sans mot de passe, sans secret. Accès public aux données.
+Dossier correct : netlify/functions/crm.mjs. Tous les fichiers sont inclus.
