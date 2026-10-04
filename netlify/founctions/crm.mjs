@@ -12,7 +12,6 @@ export default async function handler(req){
  if(req.method!=='GET'&&req.headers.get('origin')!==url.origin)return reply({error:'Origine refusée'},403);
  const cookie=(v)=>`sigma_session=${v}; Path=/; HttpOnly; SameSite=Strict; Max-Age=${v?28800:0}${url.protocol==='https:'?'; Secure':''}`;
  try{
- const store=getStore({name:'sigma-factory-crm',consistency:'strong'});
  if(op==='login'&&req.method==='POST'){
   const {login,password}=await req.json();
   if(!equal(login,env.SIGMA_LOGIN)||!equal(password,env.SIGMA_PASSWORD))return reply({error:'Identifiant ou mot de passe incorrect.'},401);
@@ -21,6 +20,7 @@ export default async function handler(req){
  if(op==='logout')return reply({ok:true},200,{'Set-Cookie':cookie('')});
  if(!authorized(req.headers.get('cookie'),secret))return reply({error:'Connexion requise'},401);
  if(op==='session')return reply({ok:true});
+ const store=getStore({name:'sigma-factory-crm',consistency:'strong'});
  if(op==='state'&&req.method==='GET'){
   const {blobs}=await store.list({prefix:'data/'});const data={};
   await Promise.all(blobs.map(async b=>{const r=await store.getWithMetadata(b.key,{type:'json',consistency:'strong'});if(r)data[b.key.slice(5)]={value:r.data,etag:r.etag};}));return reply({data});
