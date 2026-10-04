@@ -1,0 +1,1 @@
+Remplacez uniquement public/index.html dans GitHub. Cette version cumule le défilement Pipe, la recherche et les fiches contacts. Les 12 agents, 33 courtiers et leads déjà importés sont chargés depuis le serveur après connexion. Ne réimportez pas les listes.
