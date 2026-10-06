@@ -1,13 +1,16 @@
-# SIGMA Factory CRM — administrateur 1.5
-Accueil limité à l’en-tête et au bloc principal de la capture, sans sections supplémentaires ni défilement. Le contenu s’ajuste à la hauteur disponible.
-Accès CRM réservé à une session authentifiée côté serveur. Les URL de données et documents refusent l’accès hors connexion. Les boutons de l’accueil demandent une connexion.
+# EBYTDA V31 — Dubaï visible + Momentum + FR/EN
 
-## Déploiement
-Extraire le ZIP, remplacer les fichiers à la racine GitHub en conservant les dossiers, Commit changes.
-Dans Netlify, variables disponibles pour les fonctions : SIGMA_LOGIN = CRM_Factory ; SIGMA_PASSWORD = le nouveau mot de passe demandé dans la conversation. Ne pas inscrire le mot de passe dans GitHub ou dans le HTML.
-Aucune variable de secret supplémentaire nécessaire. Déployer puis tester avec le nouvel identifiant et mot de passe. Version attendue dans le journal : 1.5.0.
+Cette archive contient le site COMPLET à la racine. Remplacez les fichiers à la racine GitHub (pas un sous-dossier).
 
-## Données
-Stockage partagé Netlify Blobs conservé ; conflits détectés sans écrasement. Actualisation des autres postes toutes les 5 secondes. Garder la page ouverte tant que la sauvegarde est en attente.
-Accès admin commun, sans comptes individuels. Cookie HttpOnly, session huit heures. Changement du mot de passe invalide les sessions.
-Tests locaux UI et serveur simulé ; valider ensuite le déploiement et le travail à deux navigateurs. Pas de déploiement effectué par cette livraison.
+## Fichiers indispensables
+- index.html (import CSS final et i18n)
+- app.js (libellés Momentum, langue persistante)
+- broker-connect.js (mêmes fonctions V31, libellés)
+- i18n-v31.js (traductions FR/EN de la page et des composants dynamiques)
+- skyline-momentum-final.css (vrai fond photo visible, responsive)
+- dubai-vivid-v2.css et responsive-dubai.css (base précédente)
+- assets/dubai-skyline-luminous-v31.webp (nouveau nom anti-cache)
+
+Pour Netlify : si vous voyez encore FOMO sur la Home, vous voyez une ancienne version de index.html. Vérifiez que la racine GitHub affiche le nouveau index.html et que Netlify a bien déployé le commit. Ctrl+Maj+R après déploiement.
+
+Trading Desk V31 : simulation seulement ; ordres réels désactivés. Les performances affichées par le moteur ne garantissent aucun rendement.
