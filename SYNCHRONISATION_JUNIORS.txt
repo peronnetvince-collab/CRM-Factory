@@ -1,0 +1,8 @@
+MENU : Pipe > Drives Pipe Juniors > Clients à rappeler. Datathèque renommée Data Center.
+Dans chaque espace Junior, collez un lien Google Doc ou Google Sheet partagé accessible par le lien, puis cliquez Lier le document.
+Google Docs : tableau avec une ligne d’en-têtes. Google Sheets : colonnes, feuille choisie via gid du lien. Identifiant CRM (id/sourceId) recommandé ; sinon email unique ou Prénom + Nom exacts et uniques.
+Colonnes actualisables : Étape, Email, Téléphone, Notes, Budget (enveloppe), agent, courtier, agence, secteur. Les cellules vides ne suppriment pas les données CRM. Aucune création automatique : les lignes sans correspondance unique sont signalées.
+Synchronisation toutes les 60 secondes lorsque la page est ouverte, visible et connectée, plus bouton manuel. Ce n’est pas une synchronisation serveur 24h/24 ni un webhook Google. Les documents privés ne sont pas lisibles sans intégration Google autorisée. Ne rendez pas public un document contenant des données personnelles pour contourner cette limite.
+Les changements CRM plus récents sur un champ déjà suivi sont signalés comme conflits. Identifiez les leads par leur identifiant afin d’éviter les homonymes et dossiers multiples.
+Les pièces téléversées restent des copies, sans liaison automatique à leur original Google.
+Installation : remplacer le contenu complet du dépôt par celui du ZIP et redéployer Netlify.
