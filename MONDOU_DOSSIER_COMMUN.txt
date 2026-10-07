@@ -1,0 +1,2 @@
+Jean Louis et Stéphanie MONDOU sont réunis dans le dossier MONDOU existant. Identifiant principal conservé ; stade le plus avancé conservé ; historiques et tableaux réunis ; copies des éventuels dossiers secondaires conservées dans mergedMondouSnapshots. Aucun autre client ne change.
+La correction se réalise après connexion et se sauvegarde avec les données CRM.

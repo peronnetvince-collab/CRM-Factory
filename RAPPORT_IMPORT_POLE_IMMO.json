@@ -1,0 +1,1888 @@
+{
+  "sourceRows": 92,
+  "excluded": [
+    {
+      "name": "Xabada Rémi",
+      "email": "remixabada@gmail.com"
+    },
+    {
+      "name": "Vincent JADOT",
+      "email": "jadot.vincent@gmail.com"
+    },
+    {
+      "name": "Fabienne LATHOUD",
+      "email": "fabykim@hotmail.com"
+    },
+    {
+      "name": "Arnorld FOLIARD",
+      "email": "arnoldfoliard2@gmail.com"
+    },
+    {
+      "name": "Abdel-Karim & Bahar Aksunger Zeggai",
+      "email": "karim.zeggai86@gmail.com"
+    },
+    {
+      "name": "Manuel & Patricia Daver née Goubert",
+      "email": "patou.d06g@gmail.com"
+    },
+    {
+      "name": "Djida & Yazid Hadadcha ép. Taleb & Taleb",
+      "email": "taleb_zizou@yahoo.fr"
+    }
+  ],
+  "alreadyPresent": [
+    {
+      "name": "Pascal Ravalleau",
+      "existing": [
+        [
+          "Pascal",
+          "RAVALLEAU"
+        ]
+      ]
+    },
+    {
+      "name": "Rafissatou & Chérif MOUSTAPHA",
+      "existing": [
+        [
+          "Rafissatou",
+          "YOUSSOUF"
+        ]
+      ]
+    },
+    {
+      "name": "Joseph Tonye",
+      "existing": [
+        [
+          "Joseph",
+          "TONYE"
+        ]
+      ]
+    },
+    {
+      "name": "Tiémoko KARABOUALY",
+      "existing": [
+        [
+          "Tiémoko",
+          "KARABOUALY"
+        ]
+      ]
+    },
+    {
+      "name": "Thomas CANTIE",
+      "existing": [
+        [
+          "Thomas",
+          "CANTIE"
+        ]
+      ]
+    },
+    {
+      "name": "Sandrine KANGNE",
+      "existing": [
+        [
+          "Sandrine",
+          "KANGNE"
+        ]
+      ]
+    },
+    {
+      "name": "Ronan GOUSSEAU",
+      "existing": [
+        [
+          "Ronan",
+          "GOUSSEAU"
+        ]
+      ]
+    },
+    {
+      "name": "Reine Komlan-Wome",
+      "existing": [
+        [
+          "Reine",
+          "KOMLAN-WOME"
+        ]
+      ]
+    },
+    {
+      "name": "Océane GREGE",
+      "existing": [
+        [
+          "Océane",
+          "GREGE"
+        ]
+      ]
+    },
+    {
+      "name": "Ny Tsanta & Noémie ANDRIAMANJATO",
+      "existing": [
+        [
+          "Ny",
+          "ANDRIAMANJATO"
+        ]
+      ]
+    },
+    {
+      "name": "Nicolas Lorente",
+      "existing": [
+        [
+          "Nicolas",
+          "LORENTE"
+        ]
+      ]
+    },
+    {
+      "name": "Marmetz et Ruben Barcelo",
+      "existing": [
+        [
+          "Marmetz",
+          "BARCELO"
+        ]
+      ]
+    },
+    {
+      "name": "Marie-Françoise DANGLADES",
+      "existing": [
+        [
+          "Marie-Françoise",
+          "DANGLADES"
+        ]
+      ]
+    },
+    {
+      "name": "Karine et Vincent Khokhemkham",
+      "existing": [
+        [
+          "Karine",
+          "KHOKHEMKHAM"
+        ]
+      ]
+    },
+    {
+      "name": "Josée & Ji RAZANAKOTO",
+      "existing": [
+        [
+          "Josée",
+          "RAZANAKOTO"
+        ]
+      ]
+    },
+    {
+      "name": "Jean Louvenson VICTOR",
+      "existing": [
+        [
+          "Jean",
+          "VICTOR"
+        ]
+      ]
+    },
+    {
+      "name": "Jean Louis MONDOU",
+      "existing": [
+        [
+          "Stéphanie",
+          "MONDOU"
+        ]
+      ]
+    },
+    {
+      "name": "Henry Benoît & Sarah Audrey NDONG FRACHET",
+      "existing": [
+        [
+          "Henry",
+          "NDONG"
+        ]
+      ]
+    },
+    {
+      "name": "Frédéric et Nicolas PROSPER MAILLET",
+      "existing": [
+        [
+          "Nicolas",
+          "MAILLET"
+        ]
+      ]
+    },
+    {
+      "name": "Erastus Van Putten",
+      "existing": [
+        [
+          "Erastus",
+          "VAN PUTTEN"
+        ]
+      ]
+    },
+    {
+      "name": "Emmanuelle MAKOSSO",
+      "existing": [
+        [
+          "Emmanuelle",
+          "MAKOSSO"
+        ]
+      ]
+    },
+    {
+      "name": "Elodie GREFFIER",
+      "existing": [
+        [
+          "Elodie",
+          "GREFFIER"
+        ]
+      ]
+    },
+    {
+      "name": "Dorothée LALLIER",
+      "existing": [
+        [
+          "Dorothée",
+          "LALLIER"
+        ]
+      ]
+    },
+    {
+      "name": "Clément et Lysa Chirade et Brejaud",
+      "existing": [
+        [
+          "Clément",
+          "CHIRADE"
+        ]
+      ]
+    },
+    {
+      "name": "Chloé et Tommy Manferdini Cabrimol",
+      "existing": [
+        [
+          "Tommy",
+          "MANFERDINI"
+        ]
+      ]
+    },
+    {
+      "name": "Cédric Antony",
+      "existing": [
+        [
+          "Cédric",
+          "ANTONY"
+        ]
+      ]
+    },
+    {
+      "name": "Quentin et Aline Yau Bucher",
+      "existing": [
+        [
+          "Aline",
+          "YAU"
+        ]
+      ]
+    },
+    {
+      "name": "Anthony Menthon",
+      "existing": [
+        [
+          "Anthony",
+          "MENTHON"
+        ]
+      ]
+    },
+    {
+      "name": "Amélie BASHIERA",
+      "existing": [
+        [
+          "Amélie",
+          "BASCHIERA"
+        ]
+      ]
+    },
+    {
+      "name": "Jennifer Sartori",
+      "existing": [
+        [
+          "Jennifer",
+          "SARTORI"
+        ]
+      ]
+    },
+    {
+      "name": "Wilfried Bonnet",
+      "existing": [
+        [
+          "Wilfried",
+          "BONNET"
+        ]
+      ]
+    },
+    {
+      "name": "Nahir Marc Mohamed & Angele Marie Verdon",
+      "existing": [
+        [
+          "Nahir",
+          "MOHAMED"
+        ]
+      ]
+    },
+    {
+      "name": "Yveline Larichesse",
+      "existing": [
+        [
+          "Yveline",
+          "LARICHESSE"
+        ]
+      ]
+    },
+    {
+      "name": "Benoit Serge Jean Michel Perros",
+      "existing": [
+        [
+          "Benoît",
+          "PERROS"
+        ]
+      ]
+    },
+    {
+      "name": "Chantal Disidi Mvwandulu Ngumbu Munganga",
+      "existing": [
+        [
+          "Chantal",
+          "DISIDI MVWANDULU"
+        ]
+      ]
+    },
+    {
+      "name": "Laurant LIHRMANN",
+      "existing": [
+        [
+          "Laurent",
+          "LIHRMANN"
+        ]
+      ]
+    },
+    {
+      "name": "Guillaume NORTH",
+      "existing": [
+        [
+          "Guillaume",
+          "NORTH"
+        ]
+      ]
+    },
+    {
+      "name": "Julien MESNIL",
+      "existing": [
+        [
+          "Julien",
+          "MESNIL"
+        ]
+      ]
+    },
+    {
+      "name": "Valérie DUPUIS",
+      "existing": [
+        [
+          "Valérie",
+          "DUPUIS"
+        ]
+      ]
+    },
+    {
+      "name": "Julie FAALOUS",
+      "existing": [
+        [
+          "Julie",
+          "FAALOUS"
+        ]
+      ]
+    },
+    {
+      "name": "Alain LOIRAT",
+      "existing": [
+        [
+          "Alain",
+          "LOIRAT"
+        ]
+      ]
+    },
+    {
+      "name": "Franck VALENTIN",
+      "existing": [
+        [
+          "Franck",
+          "VALENTIN"
+        ]
+      ]
+    },
+    {
+      "name": "Soufiane Mousterji",
+      "existing": [
+        [
+          "Soufiane",
+          "MOUSTERJI"
+        ]
+      ]
+    },
+    {
+      "name": "Tiavina Ravelonjatovo",
+      "existing": [
+        [
+          "Non",
+          "RAVELONJATOVO"
+        ]
+      ]
+    },
+    {
+      "name": "Varinka PONOMALE",
+      "existing": [
+        [
+          "Varinka",
+          "PONAMALE"
+        ]
+      ]
+    },
+    {
+      "name": "Sarah & Florian CALIXTE",
+      "existing": [
+        [
+          "Florian",
+          "CALIXTE"
+        ],
+        [
+          "Florian",
+          "CALIXTE"
+        ]
+      ]
+    },
+    {
+      "name": "Marie et Sasha LE FLOCH",
+      "existing": [
+        [
+          "Marie",
+          "LE FLOCH"
+        ]
+      ]
+    },
+    {
+      "name": "Gwennaelle OURY",
+      "existing": [
+        [
+          "Gwennaël",
+          "LE COADIC"
+        ]
+      ]
+    },
+    {
+      "name": "Damien SOLVES",
+      "existing": [
+        [
+          "Damien",
+          "SOLVES"
+        ]
+      ]
+    },
+    {
+      "name": "Corinne WALLEZ",
+      "existing": [
+        [
+          "Corinne",
+          "WALLEZ"
+        ]
+      ]
+    },
+    {
+      "name": "Colombani Vetea Cusumano Laura",
+      "existing": [
+        [
+          "Vétéa",
+          "COLOMBANI"
+        ]
+      ]
+    },
+    {
+      "name": "Céline CHAUMARAT",
+      "existing": [
+        [
+          "Céline",
+          "CHAUMARAT"
+        ]
+      ]
+    },
+    {
+      "name": "Bertille RAGON",
+      "existing": [
+        [
+          "Bertille",
+          "RAGON"
+        ]
+      ]
+    },
+    {
+      "name": "Vanessa Obi",
+      "existing": [
+        [
+          "Vanessa",
+          "OBISSEMBEKI"
+        ]
+      ]
+    },
+    {
+      "name": "Brigitte Mantezolo",
+      "existing": [
+        [
+          "Brigitte",
+          "MANTEZOLO"
+        ]
+      ]
+    }
+  ],
+  "retained": [
+    {
+      "name": "Pascal Ravalleau",
+      "firstName": "Pascal",
+      "lastName": "Ravalleau",
+      "email": "pascal.ravalleau@laposte.net",
+      "envelope": null,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\nÉtat Civil ✓\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nÀ l’instant",
+      "matches": [
+        {
+          "id": "seed-202608030126",
+          "firstName": "Pascal",
+          "lastName": "RAVALLEAU"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Rafissatou & Chérif MOUSTAPHA",
+      "firstName": "Rafissatou & Chérif",
+      "lastName": "MOUSTAPHA",
+      "email": "youssouf.rafia@yahoo.fr",
+      "envelope": 130000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n130 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 3 biens 🏠 3 biens présentés\nIl y a 8j",
+      "matches": [
+        {
+          "id": "seed-20260710093",
+          "firstName": "Rafissatou",
+          "lastName": "YOUSSOUF"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Joseph Tonye",
+      "firstName": "Joseph",
+      "lastName": "Tonye",
+      "email": "joseph.tonye@gmail.com",
+      "envelope": 230000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n230 000 €\nÉtat Civil ✓\nPré-mandat ✓\nMandat –\nCourtage –\nCrédit ✓\n⛔ Non pris en charge\nIl y a 29j",
+      "matches": [
+        {
+          "id": "seed-202607160102",
+          "firstName": "Joseph",
+          "lastName": "TONYE"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Adeline Reuzé",
+      "firstName": "Adeline",
+      "lastName": "Reuzé",
+      "email": "reuze.adeline@free.fr",
+      "envelope": 120000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n120 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 23j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Tiémoko KARABOUALY",
+      "firstName": "Tiémoko",
+      "lastName": "KARABOUALY",
+      "email": "tim.karaboualy@gmail.com",
+      "envelope": 110000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n110 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 74j",
+      "matches": [
+        {
+          "id": "seed-202607210113",
+          "firstName": "Tiémoko",
+          "lastName": "KARABOUALY"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Thomas CANTIE",
+      "firstName": "Thomas",
+      "lastName": "CANTIE",
+      "email": "thomasatomix@gmail.com",
+      "envelope": 100000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n100 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 29j",
+      "matches": [
+        {
+          "id": "seed-202607060092",
+          "firstName": "Thomas",
+          "lastName": "CANTIE"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Souhail KHACHAM",
+      "firstName": "Souhail",
+      "lastName": "KACHAM",
+      "email": "souhail78@gmail.com",
+      "envelope": 160000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n160 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 65j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Simon LEJOSNE",
+      "firstName": "Simon",
+      "lastName": "LEJOSNE",
+      "email": "simon.lejo@gmail.com",
+      "envelope": 300000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n300 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Sandrine KANGNE",
+      "firstName": "Sandrine",
+      "lastName": "KANGNE",
+      "email": "sandrinekangne@yahoo.fr",
+      "envelope": 90000,
+      "assignedSource": "Elodie",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Elodie\n90 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Elodie\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202607290056",
+          "firstName": "Sandrine",
+          "lastName": "KANGNE"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Ronan GOUSSEAU",
+      "firstName": "Ronan",
+      "lastName": "GOUSSEAU",
+      "email": "ronan.gousseau@gmail.com",
+      "envelope": 80000,
+      "assignedSource": "Amandine Guisgand",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Amandine Guisgand\n80 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Amandine Guisgand\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202607270121",
+          "firstName": "Ronan",
+          "lastName": "GOUSSEAU"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Rémy Reig",
+      "firstName": "Rémy",
+      "lastName": "Reig",
+      "email": "xeldor69@gmail.com",
+      "envelope": 100000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n100 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 60j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Reine Komlan-Wome",
+      "firstName": "Reine",
+      "lastName": "Komlan-Wome",
+      "email": "kreine3@hotmail.com",
+      "envelope": 130000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n130 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202607270120",
+          "firstName": "Reine",
+          "lastName": "KOMLAN-WOME"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Océane GREGE",
+      "firstName": "Océane",
+      "lastName": "GREGE",
+      "email": "oceane.grege@gmail.com",
+      "envelope": 100000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n100 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 74j",
+      "matches": [
+        {
+          "id": "seed-202608030125",
+          "firstName": "Océane",
+          "lastName": "GREGE"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Ny Tsanta & Noémie ANDRIAMANJATO",
+      "firstName": "Ny Tsanta & Noémie",
+      "lastName": "ANDRIAMANJATO",
+      "email": "ny.tsanta@hotmail.com",
+      "envelope": 350000,
+      "assignedSource": "Elodie",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Elodie\n350 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Elodie\nIl y a 74j",
+      "matches": [
+        {
+          "id": "seed-202605060054",
+          "firstName": "Ny",
+          "lastName": "ANDRIAMANJATO"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Nicolas Lorente",
+      "firstName": "Nicolas",
+      "lastName": "Lorente",
+      "email": "nlolo4@gmail.com",
+      "envelope": null,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 60j",
+      "matches": [
+        {
+          "id": "seed-202603110004",
+          "firstName": "Nicolas",
+          "lastName": "LORENTE"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Nathalie CLAUDANT",
+      "firstName": "Nathalie",
+      "lastName": "CLAUDANT",
+      "email": "biz.nathalie@hotmail.fr",
+      "envelope": 80000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n80 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 74j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Marmetz et Ruben Barcelo",
+      "firstName": "Marmetz et Ruben",
+      "lastName": "Barcelo",
+      "email": "fevier222003@gmail.com",
+      "envelope": 270000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n270 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202607230089",
+          "firstName": "Marmetz",
+          "lastName": "BARCELO"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Marie-Françoise DANGLADES",
+      "firstName": "Marie-Françoise",
+      "lastName": "DANGLADES",
+      "email": "marie.sylvia@yahoo.fr",
+      "envelope": 105000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n105 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202607060086",
+          "firstName": "Marie-Françoise",
+          "lastName": "DANGLADES"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Samba Cédric Lusakweno",
+      "firstName": "Samba Cédric",
+      "lastName": "Lusakweno",
+      "email": "clsamba@hotmail.fr",
+      "envelope": 150000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n150 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 60j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Ludwig LACEK",
+      "firstName": "Ludwig",
+      "lastName": "LACEK",
+      "email": "lacek.ludwig@gmail.com",
+      "envelope": 210000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n210 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Landry REGNAULT",
+      "firstName": "Landry",
+      "lastName": "REGNAULT",
+      "email": "landry.sophie@hotmail.fr",
+      "envelope": 180000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n180 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Karine et Vincent Khokhemkham",
+      "firstName": "Karine et Vincent",
+      "lastName": "Khokhemkham",
+      "email": "92karinebusiness@gmail.com",
+      "envelope": 400000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n400 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 2 biens 🏠 2 biens présentés\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202607250119",
+          "firstName": "Karine",
+          "lastName": "KHOKHEMKHAM"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Josée & Ji RAZANAKOTO",
+      "firstName": "Josée & Ji",
+      "lastName": "RAZANAKOTO",
+      "email": "jirako85@gmail.com",
+      "envelope": 180000,
+      "assignedSource": "Elodie",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Elodie\n180 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Elodie\nIl y a 74j",
+      "matches": [
+        {
+          "id": "seed-202607060086",
+          "firstName": "Josée",
+          "lastName": "RAZANAKOTO"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Tristan ETIENNE",
+      "firstName": "Tristan",
+      "lastName": "ETIENNE",
+      "email": "tristanetienne93@gmail.com",
+      "envelope": 200000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n200 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 49j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Jonathan Dubourg",
+      "firstName": "Jonathan",
+      "lastName": "Dubourg",
+      "email": "dubourg.jonathan@hotmail.fr",
+      "envelope": 200000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n200 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 73j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Johannick Guillaume",
+      "firstName": "Johannick",
+      "lastName": "Guillaume",
+      "email": "johannick.guillaume.84@gmail.com",
+      "envelope": 160000,
+      "assignedSource": "Elodie",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Elodie\n160 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n✓ Offre acceptée ✅ Offre acceptée\nIl y a 74j",
+      "matches": [],
+      "stage": "offer"
+    },
+    {
+      "name": "Jean Louvenson VICTOR",
+      "firstName": "Jean Louvenson",
+      "lastName": "VICTOR",
+      "email": "victorjean2@gmail.com",
+      "envelope": 170000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n170 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 60j",
+      "matches": [
+        {
+          "id": "seed-202607300124",
+          "firstName": "Jean",
+          "lastName": "VICTOR"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Jean Louis MONDOU",
+      "firstName": "Jean Louis",
+      "lastName": "MONDOU",
+      "email": "jeanlouismondou@yahoo.fr",
+      "envelope": 204000,
+      "assignedSource": "Elodie",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Elodie\n204 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Elodie\nIl y a 49j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Henry Benoît & Sarah Audrey NDONG FRACHET",
+      "firstName": "Henry Benoît & Sarah Audrey NDONG",
+      "lastName": "FRACHET",
+      "email": "beny1784@yahoo.fr",
+      "envelope": 240000,
+      "assignedSource": "Elise Szymendera",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Elise Szymendera\n240 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n✓ Offre acceptée ✅ Offre acceptée\nIl y a 59j",
+      "matches": [
+        {
+          "id": "seed-202605080055",
+          "firstName": "Henry",
+          "lastName": "NDONG"
+        }
+      ],
+      "stage": "offer"
+    },
+    {
+      "name": "Guillaume GRANDIN",
+      "firstName": "Guillaume",
+      "lastName": "GRANDIN",
+      "email": "guillaumegrandin63@gmail.com",
+      "envelope": 130000,
+      "assignedSource": "Elodie",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Elodie\n130 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Elodie\nIl y a 74j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Frédéric et Nicolas PROSPER MAILLET",
+      "firstName": "Frédéric et Nicolas PROSPER",
+      "lastName": "MAILLET",
+      "email": "nmaillet71@gmail.com",
+      "envelope": 160000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n160 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202608040126",
+          "firstName": "Nicolas",
+          "lastName": "MAILLET"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Franck Félicité Zulma",
+      "firstName": "Franck Félicité",
+      "lastName": "Zulma",
+      "email": "sakinawa1@yahoo.fr",
+      "envelope": 170000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n170 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 60j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Erastus Van Putten",
+      "firstName": "Erastus Van",
+      "lastName": "Putten",
+      "email": "erastus.1@hotmail.com",
+      "envelope": 150000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n150 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 60j",
+      "matches": [
+        {
+          "id": "seed-202605130057",
+          "firstName": "Erastus",
+          "lastName": "VAN PUTTEN"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Emmanuelle MAKOSSO",
+      "firstName": "Emmanuelle",
+      "lastName": "MAKOSSO",
+      "email": "ammemak@gmail.com",
+      "envelope": 90000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n90 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 66j",
+      "matches": [
+        {
+          "id": "seed-202607160100",
+          "firstName": "Emmanuelle",
+          "lastName": "MAKOSSO"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Elodie GREFFIER",
+      "firstName": "Elodie",
+      "lastName": "GREFFIER",
+      "email": "lodie.makeup@gmail.com",
+      "envelope": 90000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n90 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 60j",
+      "matches": [
+        {
+          "id": "seed-202607060091",
+          "firstName": "Elodie",
+          "lastName": "GREFFIER"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Dorothée LALLIER",
+      "firstName": "Dorothée",
+      "lastName": "LALLIER",
+      "email": "doro62116@hotmail.fr",
+      "envelope": null,
+      "assignedSource": "Elodie",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Elodie\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 3 biens 🏠 3 biens présentés\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202607280122",
+          "firstName": "Dorothée",
+          "lastName": "LALLIER"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Didier CHIPAN",
+      "firstName": "Didier",
+      "lastName": "CHIPAN",
+      "email": "dchipan@hotmail.fr",
+      "envelope": 180000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n180 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 59j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Jonathan Deloumeaux",
+      "firstName": "Jonathan",
+      "lastName": "Deloumeaux",
+      "email": "jonathan.deloumeaux@gmail.com",
+      "envelope": 160000,
+      "assignedSource": null,
+      "sourceStatus": "En pause",
+      "sourceNotes": "En pause\n160 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 49j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Fabrice Dedouit",
+      "firstName": "Fabrice",
+      "lastName": "Dedouit",
+      "email": "fabded2@hotmail.com",
+      "envelope": 600000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n600 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 65j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Clément et Lysa Chirade et Brejaud",
+      "firstName": "Clément et Lysa Chirade et",
+      "lastName": "Brejaud",
+      "email": "clement.chirade@gmail.com",
+      "envelope": 220000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n220 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202603110011",
+          "firstName": "Clément",
+          "lastName": "CHIRADE"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Chloé et Tommy Manferdini Cabrimol",
+      "firstName": "Chloé et Tommy Manferdini",
+      "lastName": "Cabrimol",
+      "email": "chloe.cabrimol@hotmail.com",
+      "envelope": 190000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n190 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202607200109",
+          "firstName": "Tommy",
+          "lastName": "MANFERDINI"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Chéima JAOUADI",
+      "firstName": "Chéima",
+      "lastName": "JAOUADI",
+      "email": "chimakalai@gmail.com",
+      "envelope": 250000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n250 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Charlery BURNER",
+      "firstName": "Charlery",
+      "lastName": "BURNER",
+      "email": "charlery.burner@protonmail.com",
+      "envelope": 220000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n220 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 26j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Cédric Antony",
+      "firstName": "Cédric",
+      "lastName": "Antony",
+      "email": "cedricantony9@gmail.com",
+      "envelope": 150000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n150 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 60j",
+      "matches": [
+        {
+          "id": "seed-202603310030",
+          "firstName": "Cédric",
+          "lastName": "ANTONY"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Quentin et Aline Yau Bucher",
+      "firstName": "Quentin et Aline Yau",
+      "lastName": "Bucher",
+      "email": "aline.yau@gmail.com",
+      "envelope": 300000,
+      "assignedSource": "Elodie",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Elodie\n300 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n✓ Offre acceptée ✅ Offre acceptée\nIl y a 74j",
+      "matches": [
+        {
+          "id": "seed-202605130058",
+          "firstName": "Aline",
+          "lastName": "YAU"
+        }
+      ],
+      "stage": "offer"
+    },
+    {
+      "name": "Benjamin & Delphine PICARD",
+      "firstName": "Benjamin & Delphine",
+      "lastName": "PICARD",
+      "email": "benjamin.picard@groupe-zephyr.fr",
+      "envelope": 300000,
+      "assignedSource": "Elodie",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Elodie\n300 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Elodie\nIl y a 49j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Bénédicte HUREL",
+      "firstName": "Bénédicte",
+      "lastName": "HUREL",
+      "email": "benedicte.hurel@bbox.fr",
+      "envelope": 105000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n105 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 49j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Aurely et Sylvain Gauffroy",
+      "firstName": "Aurely et Sylvain",
+      "lastName": "Gauffroy",
+      "email": "aurely.m@live.fr",
+      "envelope": 273000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n273 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 49j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Anthony Menthon",
+      "firstName": "Anthony",
+      "lastName": "Menthon",
+      "email": "anthony.menthon@hotmail.fr",
+      "envelope": 300000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n300 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 4 biens 🏠 4 biens présentés\nIl y a 62j",
+      "matches": [
+        {
+          "id": "seed-202603110007",
+          "firstName": "Anthony",
+          "lastName": "MENTHON"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Amélie BASHIERA",
+      "firstName": "Amélie",
+      "lastName": "BASHIERA",
+      "email": "baschiera.amelie@gmail.com",
+      "envelope": 117000,
+      "assignedSource": "Elodie",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Elodie\n117 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n✓ Offre acceptée ✅ Offre acceptée\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202605130056",
+          "firstName": "Amélie",
+          "lastName": "BASCHIERA"
+        }
+      ],
+      "stage": "offer"
+    },
+    {
+      "name": "Alexandre DECOSNE",
+      "firstName": "Alexandre",
+      "lastName": "DECOSNE",
+      "email": "yepes21000@hotmail.fr",
+      "envelope": 110000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n110 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 49j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Jennifer Sartori",
+      "firstName": "Jennifer",
+      "lastName": "Sartori",
+      "email": "jennisart@hotmail.com",
+      "envelope": 500000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n500 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 65j",
+      "matches": [
+        {
+          "id": "seed-202607210115",
+          "firstName": "Jennifer",
+          "lastName": "SARTORI"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Fidèle MATEO SOPPO NDAME LOBE",
+      "firstName": "Fidèle MATEO SOPPO NDAME",
+      "lastName": "LOBE",
+      "email": "fifisoppo@live.fr",
+      "envelope": 100000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n100 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 49j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Maxime Clair",
+      "firstName": "Maxime",
+      "lastName": "Clair",
+      "email": "maximeclair15@gmail.com",
+      "envelope": 310000,
+      "assignedSource": null,
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n310 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 60j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Ousmane Sylla DIOP",
+      "firstName": "Ousmane Sylla",
+      "lastName": "DIOP",
+      "email": "syllaousmanediop2830@gmail.com",
+      "envelope": 170000,
+      "assignedSource": "Elodie",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Elodie\n170 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Elodie\nIl y a 35j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Wilfried Bonnet",
+      "firstName": "Wilfried",
+      "lastName": "Bonnet",
+      "email": "w.bonnet@hotmail.fr",
+      "envelope": 500000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n500 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202606280084",
+          "firstName": "Wilfried",
+          "lastName": "BONNET"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Nahir Marc Mohamed & Angele Marie Verdon",
+      "firstName": "Nahir Marc Mohamed & Angele Marie",
+      "lastName": "Verdon",
+      "email": "angele.verdon@gmail.com",
+      "envelope": 300000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n300 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 3 biens 🏠 3 biens présentés\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202603130029",
+          "firstName": "Nahir",
+          "lastName": "MOHAMED"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Yveline Larichesse",
+      "firstName": "Yveline",
+      "lastName": "Larichesse",
+      "email": "yveline.larichesse@gmail.com",
+      "envelope": null,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 59j",
+      "matches": [
+        {
+          "id": "seed-202603110008",
+          "firstName": "Yveline",
+          "lastName": "LARICHESSE"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Benoit Serge Jean Michel Perros",
+      "firstName": "Benoit Serge Jean Michel",
+      "lastName": "Perros",
+      "email": "benperros74@gmail.com",
+      "envelope": 250000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n250 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 3 biens 🏠 3 biens présentés\nIl y a 24j",
+      "matches": [
+        {
+          "id": "seed-202602230003",
+          "firstName": "Benoît",
+          "lastName": "PERROS"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Chantal Disidi Mvwandulu Ngumbu Munganga",
+      "firstName": "Chantal Disidi Mvwandulu Ngumbu",
+      "lastName": "Munganga",
+      "email": "chantaldisidi@hotmail.com",
+      "envelope": 100000,
+      "assignedSource": "Elodie",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Elodie\n100 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Elodie\nIl y a 59j",
+      "matches": [
+        {
+          "id": "seed-202603130015",
+          "firstName": "Chantal",
+          "lastName": "DISIDI MVWANDULU"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Wassila MEKESSER",
+      "firstName": "Wassila",
+      "lastName": "MEKESSER",
+      "email": "w_mekesser@yahoo.fr",
+      "envelope": 300000,
+      "assignedSource": "Hanna",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Hanna\n300 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 1 bien 🏠 1 bien présenté\nIl y a 69j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Laurant LIHRMANN",
+      "firstName": "Laurent",
+      "lastName": "LIHRMANN",
+      "email": "laurent68123@gmail.com",
+      "envelope": 250000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n250 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 8 biens 🏠 8 biens présentés\nIl y a 52j",
+      "matches": [
+        {
+          "id": "seed-202607230044",
+          "firstName": "Laurent",
+          "lastName": "LIHRMANN"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Guillaume NORTH",
+      "firstName": "Guillaume",
+      "lastName": "NORTH",
+      "email": "adrprincipale@hotmail.fr",
+      "envelope": 150000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n150 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 1 bien 🏠 1 bien présenté\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202607230057",
+          "firstName": "Guillaume",
+          "lastName": "NORTH"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Julien MESNIL",
+      "firstName": "Julien",
+      "lastName": "MESNIL",
+      "email": "julien.mesnil@hotmail.fr",
+      "envelope": 200000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n200 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 3 biens 🏠 3 biens présentés\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202607290116",
+          "firstName": "Julien",
+          "lastName": "MESNIL"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Valérie DUPUIS",
+      "firstName": "Valérie",
+      "lastName": "DUPUIS",
+      "email": "dupuisvlr@gmail.com",
+      "envelope": 250000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n250 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 2 biens 🏠 2 biens présentés\nIl y a 8j",
+      "matches": [
+        {
+          "id": "seed-202607230042",
+          "firstName": "Valérie",
+          "lastName": "DUPUIS"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Julie FAALOUS",
+      "firstName": "Julie",
+      "lastName": "FAALOUS",
+      "email": "jujufafa59@gmail.com",
+      "envelope": 200000,
+      "assignedSource": "Elodie",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Elodie\n200 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 3 biens 🏠 3 biens présentés\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202607230058",
+          "firstName": "Julie",
+          "lastName": "FAALOUS"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Alain LOIRAT",
+      "firstName": "Alain",
+      "lastName": "LOIRAT",
+      "email": "alainloirat79@gmail.com",
+      "envelope": 140000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n140 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202607160101",
+          "firstName": "Alain",
+          "lastName": "LOIRAT"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Franck VALENTIN",
+      "firstName": "Franck",
+      "lastName": "VALENTIN",
+      "email": "gladiator451@hotmail.fr",
+      "envelope": 150000,
+      "assignedSource": "elodie",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 elodie\n150 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 1 bien 🏠 1 bien présenté\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202605060052",
+          "firstName": "Franck",
+          "lastName": "VALENTIN"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Soufiane Mousterji",
+      "firstName": "Soufiane",
+      "lastName": "Mousterji",
+      "email": "smousterji@yahoo.com",
+      "envelope": null,
+      "assignedSource": "Elodie",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Elodie\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n✓ Offre acceptée ✅ Offre acceptée\nIl y a 62j",
+      "matches": [
+        {
+          "id": "seed-202603130021",
+          "firstName": "Soufiane",
+          "lastName": "MOUSTERJI"
+        }
+      ],
+      "stage": "offer"
+    },
+    {
+      "name": "Zhandra RONDON",
+      "firstName": "Zhandra",
+      "lastName": "RONDON",
+      "email": "galerazhandra@gmail.com",
+      "envelope": 122000,
+      "assignedSource": "elodie",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 elodie\n122 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 elodie\nIl y a 49j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Tiavina Ravelonjatovo",
+      "firstName": "Tiavina",
+      "lastName": "Ravelonjatovo",
+      "email": "tiavina1@hotmail.fr",
+      "envelope": 160000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n160 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 3 biens 🏠 3 biens présentés\nIl y a 57j",
+      "matches": [
+        {
+          "id": "seed-202607100095",
+          "firstName": "Non",
+          "lastName": "RAVELONJATOVO"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Varinka PONOMALE",
+      "firstName": "Varinka",
+      "lastName": "PONOMALE",
+      "email": "varinka.ponamale@gmail.com",
+      "envelope": 400000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n400 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202605060050",
+          "firstName": "Varinka",
+          "lastName": "PONAMALE"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Sarah & Florian CALIXTE",
+      "firstName": "Sarah & Florian",
+      "lastName": "CALIXTE",
+      "email": "flo.sarah@outlook.fr",
+      "envelope": 200000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n200 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 8 biens 🏠 8 biens présentés\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202605200059",
+          "firstName": "Florian",
+          "lastName": "CALIXTE"
+        },
+        {
+          "id": "seed-202605200060",
+          "firstName": "Florian",
+          "lastName": "CALIXTE"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Marie et Sasha LE FLOCH",
+      "firstName": "Marie et Sasha LE",
+      "lastName": "FLOCH",
+      "email": "marielf@orange.fr",
+      "envelope": 200000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n200 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202605060053",
+          "firstName": "Marie",
+          "lastName": "LE FLOCH"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Jerome DESSAIN",
+      "firstName": "Jerome",
+      "lastName": "DESSAIN",
+      "email": "jeromedess@live.fr",
+      "envelope": 120000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n120 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Hermann Kouamo",
+      "firstName": "Hermann",
+      "lastName": "Kouamo",
+      "email": "hkouamo@gmail.com",
+      "envelope": 215000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n215 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 43j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Gwennaelle OURY",
+      "firstName": "Gwennaelle",
+      "lastName": "OURY",
+      "email": "gwenn_lecoadic@yahoo.fr",
+      "envelope": 100000,
+      "assignedSource": "ELODIE",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 ELODIE\n100 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 2 biens 🏠 2 biens présentés\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202604150033",
+          "firstName": "Gwennaël",
+          "lastName": "LE COADIC"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Geoffray LAMBERT",
+      "firstName": "Geoffray",
+      "lastName": "LAMBERT",
+      "email": "geoffray.lambert@gmail.com",
+      "envelope": 200000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n200 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 65j",
+      "matches": [],
+      "stage": "realestate"
+    },
+    {
+      "name": "Damien SOLVES",
+      "firstName": "Damien",
+      "lastName": "SOLVES",
+      "email": "dolves.samien@gmail.com",
+      "envelope": 140000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n140 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202605060048",
+          "firstName": "Damien",
+          "lastName": "SOLVES"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Corinne WALLEZ",
+      "firstName": "Corinne",
+      "lastName": "WALLEZ",
+      "email": "corinnewallez@yahoo.fr",
+      "envelope": 112000,
+      "assignedSource": "elodie",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 elodie\n112 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 elodie\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202605060043",
+          "firstName": "Corinne",
+          "lastName": "WALLEZ"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Colombani Vetea Cusumano Laura",
+      "firstName": "Colombani Vetea Cusumano",
+      "lastName": "Laura",
+      "email": "v.colombani130@gmail.com",
+      "envelope": 290000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n290 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 5 biens 🏠 5 biens présentés\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202607210111",
+          "firstName": "Vétéa",
+          "lastName": "COLOMBANI"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Céline CHAUMARAT",
+      "firstName": "Céline",
+      "lastName": "CHAUMARAT",
+      "email": "celine.chau@hotmail.fr",
+      "envelope": 275000,
+      "assignedSource": "ELODIE",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 ELODIE\n275 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 6 biens 🏠 6 biens présentés\nIl y a 29j",
+      "matches": [
+        {
+          "id": "seed-202603310032",
+          "firstName": "Céline",
+          "lastName": "CHAUMARAT"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Bertille RAGON",
+      "firstName": "Bertille",
+      "lastName": "RAGON",
+      "email": "bertille.ragon@gmail.com",
+      "envelope": 150000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n150 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 1 bien 🏠 1 bien présenté\nIl y a 8j",
+      "matches": [
+        {
+          "id": "seed-202607230118",
+          "firstName": "Bertille",
+          "lastName": "RAGON"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Vanessa Obi",
+      "firstName": "Vanessa",
+      "lastName": "Obi",
+      "email": "obivanessa49@yahoo.fr",
+      "envelope": 250000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n250 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 3 biens 🏠 3 biens présentés\nIl y a 65j",
+      "matches": [
+        {
+          "id": "seed-202607210110",
+          "firstName": "Vanessa",
+          "lastName": "OBISSEMBEKI"
+        }
+      ],
+      "stage": "realestate"
+    },
+    {
+      "name": "Brigitte Mantezolo",
+      "firstName": "Brigitte",
+      "lastName": "Mantezolo",
+      "email": "briige93@gmail.com",
+      "envelope": 310000,
+      "assignedSource": "Vincent Peronnet",
+      "sourceStatus": "Actif",
+      "sourceNotes": "Actif\n👤 Vincent Peronnet\n310 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j",
+      "matches": [
+        {
+          "id": "seed-202606170083",
+          "firstName": "Brigitte",
+          "lastName": "MANTEZOLO"
+        }
+      ],
+      "stage": "realestate"
+    }
+  ],
+  "requiresReview": [
+    "Jean Louis MONDOU : prénom différent de Stéphanie MONDOU dans le dossier initial ; aucune fusion automatique."
+  ]
+}

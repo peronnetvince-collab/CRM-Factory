@@ -1,0 +1,7 @@
+92 fiches extraites du fichier ; 7 exclues ; 85 conservées.
+Les correspondances connues enrichissent uniquement les champs vides ; les stades, budgets et commentaires existants restent conservés. Les projets multiples restent des dossiers distincts.
+Le rapprochement par email ou identité évite les créations en double. Les noms ambigus sont ignorés plutôt que fusionnés automatiquement.
+Cette migration s’exécute une fois après connexion. La liste des rappels demeure distincte mais les leads du fichier peuvent déjà y figurer sans créer un second dossier CRM.
+Le ZIP inclut Pipe principal, Pipe juniors, Data Center, rappels et synchro Google. Remplacez le dépôt complet puis redéployez Netlify.
+
+MONDOU : prénom différent dans le dossier existant. La ligne Jean Louis MONDOU est mise de côté pour vérification ; elle ne crée pas de doublon et ne remplace pas les coordonnées de Stéphanie MONDOU.
