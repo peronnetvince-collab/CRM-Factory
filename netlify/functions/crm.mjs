@@ -21,6 +21,13 @@ export default async function handler(req){
  if(op==='logout')return reply({ok:true},200,{'Set-Cookie':cookie('')});
  if(!authorized(req.headers.get('cookie'),secret))return reply({error:'Connexion requise'},401);
  if(op==='session')return reply({ok:true});
+
+ if(op==='google-document'&&req.method==='POST'){
+  const body=await req.json();let target;try{const u=new URL(body.url);if(u.protocol!=='https:'||u.hostname!=='docs.google.com'||u.username||u.password)throw Error();const m=u.pathname.match(/^\/(document|spreadsheets)\/d\/([A-Za-z0-9_-]+)(?:\/|$)/);if(!m)throw Error();const gid=u.searchParams.get('gid')||new URLSearchParams(u.hash.slice(1)).get('gid')||'0';target=m[1]==='document'?`https://docs.google.com/document/d/${m[2]}/export?format=html`:`https://docs.google.com/spreadsheets/d/${m[2]}/export?format=csv&gid=${encodeURIComponent(gid)}`;}catch{return reply({error:'Lien Google Doc / Sheet invalide.'},400);}
+  let response;for(let i=0;i<5;i++){response=await fetch(target,{redirect:'manual',signal:AbortSignal.timeout(15000)});if([301,302,303,307,308].includes(response.status)){const next=new URL(response.headers.get('location'),target);if(next.protocol!=='https:'||!(next.hostname==='docs.google.com'||next.hostname.endsWith('.googleusercontent.com')))return reply({error:'Document privé : autorisation Google requise. Partagez uniquement un document adapté à un accès par lien, ou utilisez le dépôt de fichier.'},403);target=next.href;continue;}break;}
+  if(!response?.ok)return reply({error:'Document inaccessible. Vérifiez son partage et son lien Google.'},403);
+  const reader=response.body.getReader();const chunks=[];let size=0;for(;;){const {done,value}=await reader.read();if(done)break;size+=value.byteLength;if(size>2000000){await reader.cancel();return reply({error:'Document trop volumineux (2 Mo maximum).'},413);}chunks.push(value);}const content=Buffer.concat(chunks).toString('utf8');if(/accounts.google.com|ServiceLogin|<title>.*Sign in/i.test(content))return reply({error:'Document privé : autorisation Google requise.'},403);return reply({content,format:body.url.includes('/spreadsheets/')?'csv':'html'});
+ }
  const store=getStore({name:'sigma-factory-crm',consistency:'strong'});
  if(op==='state'&&req.method==='GET'){
   const {blobs}=await store.list({prefix:'data/'});const data={};
