@@ -1,0 +1,4 @@
+62 fiches de rappel créées. Coordonnées non fournies : champs laissés vides. Noms reproduits tels que transmis.
+Onglet Clients à rappeler : recherche, statut, prochaine date, commentaire, liaison à un dossier CRM et export CSV. Les fiches de rappel restent distinctes du Pipe tant qu’aucun dossier n’est lié.
+Drives Pipe Juniors : 3 espaces indépendants, dépôt multiple ou glisser-déposer, ouverture et téléchargement. Sauvegarde via le stockage CRM existant.
+Les retraits de leads du ZIP précédent sont conservés. Importez le contenu intégral à la racine GitHub, puis redéployez Netlify.
