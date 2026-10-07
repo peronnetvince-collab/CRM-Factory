@@ -1,0 +1,6 @@
+Déposez le contenu COMPLET de ce ZIP à la racine du dépôt GitHub puis redéployez Netlify.
+Cette livraison retire les fiches correspondantes du jeu initial et nettoie les dossiers existants au chargement du CRM après connexion. Dossiers et Pipe partagent la même base.
+La sauvegarde partagée envoie le nettoyage au serveur après connexion. Vérifiez le statut de sauvegarde partagée avant de fermer.
+Aucune modification de votre site en ligne n’a été effectuée depuis ChatGPT.
+La liste d’exclusion empêche leur réintroduction lors des imports. Les pièces jointes sources et les notes historiques ne sont pas détruites.
+Les correspondances utilisent les noms et prénoms, sans accents ni ordre imposé ; aucun nom de famille seul n’est utilisé.
