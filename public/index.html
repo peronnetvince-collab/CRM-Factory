@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#2865e8"><title>SIGMA Factory CRM</title><style>html,body{margin:0;min-height:100%;background:#f8f9fb}body{overflow-x:hidden}</style><script>window.SigmaExcludedLeads={aliases:["abdel karim zeggai et bahar zeggai", "abdel karim zeggai", "bahar zeggai", "achimi barria", "adrien parent et tatiana delfosse", "adrien parent", "tatiana delfosse", "alexandre paul raymond rossetti et marion jauny", "alexandre paul raymond rossetti", "marion jauny", "alexis dos santos", "alice kougang et diane toukam", "alice kougang", "diane toukam", "alison duque", "allaya seifeddine", "arnold foliard", "baptiste cottens", "beillevaire jose", "belhaj ines et hamrouni slim", "belhaj ines", "hamrouni slim", "benichou elie", "blanchard maxime", "cambrone samuel", "carbon raphael", "cedric avenard aurelie clavel", "cedric avenard", "aurelie clavel", "celine et richard stasiak", "richard stasiak", "chamton julie", "crepin geoffrey", "dewavrin pierre", "di girolamo antoine", "diaby assita", "didier garcia et son frere antonio jose garcia", "didier garcia", "son frere antonio jose garcia", "elodie et david rivet", "david rivet", "emiot marina", "fabien sauchay", "fargeot jeremy et aurelie", "fargeot jeremy", "fargues pascal", "feillet vincent", "flohic damien", "francois conversano et christophe", "francois conversano", "fraysse mai lee et federico", "fraysse mai lee", "fuchs pierrick", "garitte vincent", "gauthier julien", "gautier daures", "gerard idel et sa femme angela", "gerard idel", "sa femme angela", "gonnet anthony", "goussaud jeremy", "harb hassan", "hervel olivier", "iskounen salem", "jadot vincent", "jean pierre rachel", "karim ayd", "kidjassou hubert", "kouassi kevine", "lathoud fabienne", "le gratiet noa", "lebeur laurent et celine", "lebeur laurent", "lenoir liam et christelle", "lenoir liam", "loheac alois", "manuel daver", "martin donadio", "maxime blanchard", "michael hierso", "michel ulrich et christelle pasquier", "michel ulrich", "christelle pasquier", "noblot nicolas et noemie", "noblot nicolas", "nouvian eloire", "sebastien reuillard et cynthia demea", "sebastien reuillard", "cynthia demea", "yvan rybak", "vargues maxime", "okou gbadjo koffi myriam koffi tayoro ange christian", "othmane hiyadi othmane", "pinard remi", "ramoussin yannick et johanna", "ramoussin yannick", "randria christian", "randrianatsimbazafy tsialonina", "raymond thomas magnou camille", "xabada remi", "sandra lane et julie barthelemy", "sandra lane", "julie barthelemy", "saquet thomas", "sigonney floriane", "slimani roland", "toukou franklin", "toulotte nicolas", "tsila elke", "vangkhot saysana", "vibert anais", "vincent drouet", "virginie et yann francois", "yann francois", "wahl sebastian", "yazid et djida taleb", "djida taleb", "celine stasiak", "elodie rivet", "aurelie fargeot", "christophe conversano", "federico fraysse", "angela idel", "celine lebeur", "christelle lenoir", "noemie noblot", "johanna ramoussin", "camille magnou", "virginie francois", "yazid taleb"],normalize(v){return String(v??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();},matches(c){const n=this.normalize([c.firstName,c.lastName,c.name,c.nom,c.prenom,c.fullName,c.coBuyerName].filter(Boolean).join(' '));const ts=new Set(n.split(' '));return this.aliases.some(a=>a.split(' ').every(t=>ts.has(t)));},filter(rows){return rows.filter(c=>!this.matches(c));}};window.SigmaSearchMatch=(record,query)=>{const normalize=v=>String(v??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();const q=normalize(query);if(!q)return true;const hay=normalize(Object.values(record).filter(v=>typeof v==='string'||typeof v==='number').join(' '));const digits=q.replace(/\D/g,'');if(digits.length>=4&&/^[+\d\s().-]+$/.test(q)){const phone=String(record.phone||record.telephone||'').replace(/\D/g,'');return phone.includes(digits)||(phone.startsWith('33')&&('0'+phone.slice(2)).includes(digits));}return q.split(/\s+/).every(token=>hay.includes(token));};</script>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#2865e8"><title>SIGMA Factory CRM</title><style>html,body{margin:0;min-height:100%;background:#f8f9fb}body{overflow-x:hidden}</style><script>window.SigmaExcludedLeads={aliases:["abdel karim zeggai et bahar zeggai", "abdel karim zeggai", "bahar zeggai", "achimi barria", "adrien parent et tatiana delfosse", "adrien parent", "tatiana delfosse", "alexandre paul raymond rossetti et marion jauny", "alexandre paul raymond rossetti", "marion jauny", "alexis dos santos", "alice kougang et diane toukam", "alice kougang", "diane toukam", "alison duque", "allaya seifeddine", "arnold foliard", "baptiste cottens", "beillevaire jose", "belhaj ines et hamrouni slim", "belhaj ines", "hamrouni slim", "benichou elie", "blanchard maxime", "cambrone samuel", "carbon raphael", "cedric avenard aurelie clavel", "cedric avenard", "aurelie clavel", "celine et richard stasiak", "richard stasiak", "chamton julie", "crepin geoffrey", "dewavrin pierre", "di girolamo antoine", "diaby assita", "didier garcia et son frere antonio jose garcia", "didier garcia", "son frere antonio jose garcia", "elodie et david rivet", "david rivet", "emiot marina", "fabien sauchay", "fargeot jeremy et aurelie", "fargeot jeremy", "fargues pascal", "feillet vincent", "flohic damien", "francois conversano et christophe", "francois conversano", "fraysse mai lee et federico", "fraysse mai lee", "fuchs pierrick", "garitte vincent", "gauthier julien", "gautier daures", "gerard idel et sa femme angela", "gerard idel", "sa femme angela", "gonnet anthony", "goussaud jeremy", "harb hassan", "hervel olivier", "iskounen salem", "jadot vincent", "jean pierre rachel", "karim ayd", "kidjassou hubert", "kouassi kevine", "lathoud fabienne", "le gratiet noa", "lebeur laurent et celine", "lebeur laurent", "lenoir liam et christelle", "lenoir liam", "loheac alois", "manuel daver", "martin donadio", "maxime blanchard", "michael hierso", "michel ulrich et christelle pasquier", "michel ulrich", "christelle pasquier", "noblot nicolas et noemie", "noblot nicolas", "nouvian eloire", "sebastien reuillard et cynthia demea", "sebastien reuillard", "cynthia demea", "yvan rybak", "vargues maxime", "okou gbadjo koffi myriam koffi tayoro ange christian", "othmane hiyadi othmane", "pinard remi", "ramoussin yannick et johanna", "ramoussin yannick", "randria christian", "randrianatsimbazafy tsialonina", "raymond thomas magnou camille", "xabada remi", "sandra lane et julie barthelemy", "sandra lane", "julie barthelemy", "saquet thomas", "sigonney floriane", "slimani roland", "toukou franklin", "toulotte nicolas", "tsila elke", "vangkhot saysana", "vibert anais", "vincent drouet", "virginie et yann francois", "yann francois", "wahl sebastian", "yazid et djida taleb", "djida taleb", "celine stasiak", "elodie rivet", "aurelie fargeot", "christophe conversano", "federico fraysse", "angela idel", "celine lebeur", "christelle lenoir", "noemie noblot", "johanna ramoussin", "camille magnou", "virginie francois", "yazid taleb", "arnorld foliard"],normalize(v){return String(v??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();},matches(c){if(["remixabada@gmail.com", "jadot.vincent@gmail.com", "fabykim@hotmail.com", "arnoldfoliard2@gmail.com", "karim.zeggai86@gmail.com", "patou.d06g@gmail.com", "taleb_zizou@yahoo.fr"].includes(String(c.email||'').trim().toLowerCase()))return true;const n=this.normalize([c.firstName,c.lastName,c.name,c.nom,c.prenom,c.fullName,c.coBuyerName].filter(Boolean).join(' '));const ts=new Set(n.split(' '));return this.aliases.some(a=>a.split(' ').every(t=>ts.has(t)));},filter(rows){return rows.filter(c=>!this.matches(c));}};window.SigmaSearchMatch=(record,query)=>{const normalize=v=>String(v??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();const q=normalize(query);if(!q)return true;const hay=normalize(Object.values(record).filter(v=>typeof v==='string'||typeof v==='number').join(' '));const digits=q.replace(/\D/g,'');if(digits.length>=4&&/^[+\d\s().-]+$/.test(q)){const phone=String(record.phone||record.telephone||'').replace(/\D/g,'');return phone.includes(digits)||(phone.startsWith('33')&&('0'+phone.slice(2)).includes(digits));}return q.split(/\s+/).every(token=>hay.includes(token));};</script>
 </head><body>
 <div id="sigma-crm-preview">
 <style>
@@ -855,7 +855,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "ny.tsanta@hotmail.com"
   },
   {
     "id": "seed-202603310030",
@@ -898,7 +899,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "cedricantony9@gmail.com"
   },
   {
     "id": "seed-202607230089",
@@ -941,7 +943,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "fevier222003@gmail.com"
   },
   {
     "id": "seed-202605130056",
@@ -984,7 +987,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "baschiera.amelie@gmail.com"
   },
   {
     "id": "seed-202606280084",
@@ -1027,7 +1031,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "w.bonnet@hotmail.fr"
   },
   {
     "id": "seed-202605200059",
@@ -1070,7 +1075,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "flo.sarah@outlook.fr"
   },
   {
     "id": "seed-202605200060",
@@ -1113,7 +1119,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "flo.sarah@outlook.fr"
   },
   {
     "id": "seed-202607060092",
@@ -1156,7 +1163,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "thomasatomix@gmail.com"
   },
   {
     "id": "seed-202603310032",
@@ -1199,7 +1207,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "celine.chau@hotmail.fr"
   },
   {
     "id": "seed-202603110011",
@@ -1242,7 +1251,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "clement.chirade@gmail.com"
   },
   {
     "id": "seed-202607210111",
@@ -1285,7 +1295,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "v.colombani130@gmail.com"
   },
   {
     "id": "seed-202607060086",
@@ -1328,7 +1339,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "marie.sylvia@yahoo.fr"
   },
   {
     "id": "seed-202603130015",
@@ -1371,7 +1383,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "chantaldisidi@hotmail.com"
   },
   {
     "id": "seed-202607230042",
@@ -1414,7 +1427,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "dupuisvlr@gmail.com"
   },
   {
     "id": "seed-202607230058",
@@ -1457,7 +1471,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "jujufafa59@gmail.com"
   },
   {
     "id": "seed-202607270121",
@@ -1500,7 +1515,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "ronan.gousseau@gmail.com"
   },
   {
     "id": "seed-202607060091",
@@ -1543,7 +1559,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "lodie.makeup@gmail.com"
   },
   {
     "id": "seed-202608030125",
@@ -1586,7 +1603,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "oceane.grege@gmail.com"
   },
   {
     "id": "seed-202607290019",
@@ -1672,7 +1690,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "sandrinekangne@yahoo.fr"
   },
   {
     "id": "seed-202607210113",
@@ -1715,7 +1734,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "tim.karaboualy@gmail.com"
   },
   {
     "id": "seed-202607250119",
@@ -1758,7 +1778,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "92karinebusiness@gmail.com"
   },
   {
     "id": "seed-202607270120",
@@ -1801,7 +1822,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "kreine3@hotmail.com"
   },
   {
     "id": "seed-202607280122",
@@ -1844,7 +1866,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "doro62116@hotmail.fr"
   },
   {
     "id": "seed-202603110008",
@@ -1887,7 +1910,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "yveline.larichesse@gmail.com"
   },
   {
     "id": "seed-202604150033",
@@ -1930,7 +1954,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "gwenn_lecoadic@yahoo.fr"
   },
   {
     "id": "seed-202605060053",
@@ -1973,7 +1998,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "marielf@orange.fr"
   },
   {
     "id": "seed-202607230044",
@@ -2016,7 +2042,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "laurent68123@gmail.com"
   },
   {
     "id": "seed-202607160101",
@@ -2059,7 +2086,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "alainloirat79@gmail.com"
   },
   {
     "id": "seed-202603110004",
@@ -2102,7 +2130,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "nlolo4@gmail.com"
   },
   {
     "id": "seed-202608040126",
@@ -2145,7 +2174,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "nmaillet71@gmail.com"
   },
   {
     "id": "seed-202607160100",
@@ -2188,7 +2218,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "ammemak@gmail.com"
   },
   {
     "id": "seed-202607200109",
@@ -2231,7 +2262,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "chloe.cabrimol@hotmail.com"
   },
   {
     "id": "seed-202606170083",
@@ -2274,7 +2306,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "briige93@gmail.com"
   },
   {
     "id": "seed-202603110007",
@@ -2317,7 +2350,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "anthony.menthon@hotmail.fr"
   },
   {
     "id": "seed-202607290116",
@@ -2360,7 +2394,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "julien.mesnil@hotmail.fr"
   },
   {
     "id": "seed-202603130029",
@@ -2403,12 +2438,13 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "angele.verdon@gmail.com"
   },
   {
     "id": "seed-202607060090",
     "sourceId": "202607060090",
-    "firstName": "Stéphanie",
+    "firstName": "Jean Louis et Stéphanie",
     "lastName": "MONDOU",
     "projectType": "Investissement",
     "checks": {
@@ -2446,7 +2482,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "jeanlouismondou@yahoo.fr"
   },
   {
     "id": "seed-202603130021",
@@ -2489,7 +2526,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "smousterji@yahoo.com"
   },
   {
     "id": "seed-202605080055",
@@ -2532,7 +2570,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "beny1784@yahoo.fr"
   },
   {
     "id": "seed-202607210114",
@@ -2618,7 +2657,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "adrprincipale@hotmail.fr"
   },
   {
     "id": "seed-202607210110",
@@ -2661,7 +2701,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "obivanessa49@yahoo.fr"
   },
   {
     "id": "seed-202602230003",
@@ -2704,7 +2745,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "benperros74@gmail.com"
   },
   {
     "id": "seed-202605060050",
@@ -2747,7 +2789,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "varinka.ponamale@gmail.com"
   },
   {
     "id": "seed-202607230118",
@@ -2790,7 +2833,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "bertille.ragon@gmail.com"
   },
   {
     "id": "seed-202608030126",
@@ -2833,7 +2877,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "pascal.ravalleau@laposte.net"
   },
   {
     "id": "seed-202607100095",
@@ -2876,7 +2921,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "tiavina1@hotmail.fr"
   },
   {
     "id": "seed-202607060086",
@@ -2919,7 +2965,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "jirako85@gmail.com"
   },
   {
     "id": "seed-202602180001",
@@ -3005,7 +3052,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "jennisart@hotmail.com"
   },
   {
     "id": "seed-202607080097",
@@ -3091,7 +3139,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "dolves.samien@gmail.com"
   },
   {
     "id": "seed-202607160102",
@@ -3134,7 +3183,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "joseph.tonye@gmail.com"
   },
   {
     "id": "seed-202605060052",
@@ -3177,7 +3227,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "gladiator451@hotmail.fr"
   },
   {
     "id": "seed-202605130057",
@@ -3220,7 +3271,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "erastus.1@hotmail.com"
   },
   {
     "id": "seed-202607300124",
@@ -3263,7 +3315,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "victorjean2@gmail.com"
   },
   {
     "id": "seed-202605060043",
@@ -3306,7 +3359,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "corinnewallez@yahoo.fr"
   },
   {
     "id": "seed-202605130058",
@@ -3349,7 +3403,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "aline.yau@gmail.com"
   },
   {
     "id": "seed-20260710093",
@@ -3392,7 +3447,8 @@ window.SIGMA_SEED_CLIENTS = [
     "litigeComment": "",
     "comment": "",
     "stageBeforeLitige": "",
-    "litigeAt": ""
+    "litigeAt": "",
+    "email": "youssouf.rafia@yahoo.fr"
   }
 ];
 
@@ -3603,7 +3659,7 @@ $('#dropzone').onclick=()=>$('#filePicker').click();$('#dropzone').onkeydown=e=>
 $('#downloadTemplate').onclick=()=>download('Sigma_Factory_Modele_Pipe.csv',csvText([]),'text/csv;charset=utf-8');$('#exportJson').onclick=()=>download('Sigma_Factory_CRM_Sauvegarde.json',JSON.stringify({version:1,exportedAt:new Date().toISOString(),clients:db.clients},null,2),'application/json;charset=utf-8');for(const id of ['exportCsv','exportClientsCsv'])$('#'+id).onclick=()=>download('Sigma_Factory_CRM_Clients.csv',csvText(db.clients),'text/csv;charset=utf-8');}
 window.sigmaStorageReady.then(()=>{load();wire();renderAll();setView('overview');window.sigmaPreviewStorage.show();});
 // Explicit extension hook for an eventual secure server-side Drive adapter.
-window.SigmaCRM=Object.freeze({syncJuniorRows:(rows,source,lastAt,baseline={})=>{const out={updated:0,unchanged:0,unmatched:0,conflicts:0,details:[],snapshot:{}};for(const raw of rows){const value=k=>Object.entries(raw).find(([a])=>norm(a)===norm(k))?.[1];const ref=value('id')||value('sourceId')||value('Identifiant CRM'),email=value('email')||value('E-mail');let matches=ref?db.clients.filter(c=>c.id===ref||c.sourceId===ref):email?db.clients.filter(c=>norm(c.email)===norm(email)):[];if(!ref&&!email){const first=value('Prénom')||value('firstName'),last=value('Nom')||value('lastName');if(first&&last)matches=db.clients.filter(c=>norm(c.firstName)===norm(first)&&norm(c.lastName)===norm(last));}if(matches.length!==1){out.unmatched++;out.details.push('Non rapproché : '+(ref||email||value('Nom')||'ligne sans identifiant'));continue;}const c=matches[0],r=normalizeRow({...raw,firstName:c.firstName,lastName:c.lastName});if(!r){out.unmatched++;continue;}const patch={};for(const k of ['email','phone','subscription','brokerName','agency','notes','geoSector','agentName','comment','envelope','offerFAI'])if(r[k]!==undefined&&String(r[k]).trim()!=='')patch[k]=['envelope','offerFAI'].includes(k)?amount(r[k]):String(r[k]).slice(0,k==='notes'?5000:250);if(r.stage!==undefined){const st=stageFromText(r.stage);if(st)patch.stage=st;else out.details.push('Étape non reconnue : '+r.stage);}const changed=Object.entries(patch).filter(([k,v])=>String(c[k]??'')!==String(v));if(changed.some(([k])=>lastAt&&new Date(c.updatedAt)>new Date(lastAt)&&(!baseline[c.id]||String(baseline[c.id][k]??'')!==String(c[k]??'')))){out.conflicts++;out.details.push('Modification CRM plus récente : '+c.firstName+' '+c.lastName);continue;}if(changed.length){Object.assign(c,patch);auditLead(c,'Synchronisation Junior',source+' · '+changed.map(([k])=>k).join(', '));out.updated++;}else out.unchanged++;out.snapshot[c.id]=Object.fromEntries(Object.keys(patch).map(k=>[k,c[k]]));}if(out.updated){store();renderAll();window.dispatchEvent(new CustomEvent('sigma:lead-updated'));}return out;},renameContact:(kind,oldName,newName)=>{const key=({courtiers:'brokerName',agents:'agentName',notaires:'notaryBuyer',ambassadeurs:'ambassadorName'})[kind];if(!key)return;for(const c of db.clients){if(c[key]===oldName){c[key]=newName;auditLead(c,'Nom du contact actualisé',oldName+' → '+newName);}}if(drawerDraft&&drawerDraft[key]===oldName)drawerDraft[key]=newName;store();renderAll();window.dispatchEvent(new CustomEvent('sigma:lead-updated'));},routeSAV,assignContact:(id,kind,name)=>{const key=({courtiers:'brokerName',agents:'agentName',notaires:'notaryBuyer',ambassadeurs:'ambassadorName'})[kind],c=db.clients.find(x=>x.id===id);if(!key||!c)return false;const contact=name?window.SigmaContacts.getAll(kind).find(x=>x.nom===name):null;if(name&&!contact)return false;const old=c[key]||'';if(old===name)return true;c[key]=name;if(kind==='agents')c.agency=contact?.entreprise||'';auditLead(c,'Rattachement '+kind,(old||'Non attribué')+' → '+(name||'Retiré'));store();renderAll();window.dispatchEvent(new CustomEvent('sigma:lead-updated'));return true;},createLead:(data)=>{const c=hydrateClient({...emptyClient(),...data,source:"Data Center"});db.clients.push(c);auditLead(c,"Création depuis la Data Center",c.firstName+" "+c.lastName);store();renderAll();return c.id;},assignAmbassador:(id,name)=>{const c=db.clients.find(x=>x.id===id);if(!c||!window.SigmaContacts.getAll("ambassadeurs").some(a=>a.nom===name))return false;if(c.ambassadorName===name)return true;c.ambassadorName=name;auditLead(c,"Ambassadeur du deal",name);store();renderAll();return true;},getLeads:()=>JSON.parse(JSON.stringify(db.clients)),openLead:openDrawer,recordAction:(id,label,detail)=>{const c=db.clients.find(x=>x.id===id);if(!c)return;auditLead(c,label,detail);store();renderAll();},getClientCount:()=>db.clients.length,openView:(id)=>{if(['overview','clients','pipeline','biens','litiges','drive','cloud','courtiers','agents','notaires','ambassadeurs','knowledge','callbacks'].includes(id))setView(id);},parseCloudCSV:csvParse,ingestFromCloud:(rows,name)=>ingest(rows,{source:'Data Center · '+name,driveDefaults:false}),ingestFromAuthorizedDrive:(rows)=>ingest(rows,{source:'Google Drive · MANDATS SIGNÉS',driveDefaults:true})});
+window.SigmaCRM=Object.freeze({mergeMondouFamily:()=>{const candidates=db.clients.filter(c=>norm(c.lastName)==='mondou');if(!candidates.length)return false;const primary=candidates.find(c=>c.id==='seed-202607060090')||candidates[0];const label='Jean Louis et Stéphanie',mail='jeanlouismondou@yahoo.fr';let changed=primary.firstName!==label||!primary.email;primary.firstName=label;if(!primary.email)primary.email=mail;primary.coBuyerNames=['Jean Louis MONDOU','Stéphanie MONDOU'];for(const other of candidates.filter(c=>c!==primary)){if(stageRank(other.stage)>stageRank(primary.stage))primary.stage=other.stage;for(const [key,val]of Object.entries(other)){if(key==='id'||key==='firstName'||key==='lastName')continue;if(Array.isArray(val))primary[key]=[...(primary[key]||[]),...val].filter((v,i,a)=>a.findIndex(x=>JSON.stringify(x)===JSON.stringify(v))===i);else if((primary[key]==null||primary[key]==='')&&val!=null)primary[key]=val;}primary.mergedMondouSnapshots=primary.mergedMondouSnapshots||[];if(!primary.mergedMondouSnapshots.some(x=>x.id===other.id))primary.mergedMondouSnapshots.push(JSON.parse(JSON.stringify(other)));changed=true;}db.clients=db.clients.filter(c=>norm(c.lastName)!=='mondou'||c===primary);if(changed){auditLead(primary,'Dossier commun MONDOU','Jean Louis et Stéphanie réunis à la demande de Vincent · historique conservé');store();renderAll();window.dispatchEvent(new CustomEvent('sigma:lead-updated'));}return primary.id;},mergeImmoSource:(rows)=>{const result={created:0,enriched:0,excluded:0,ambiguous:0};for(const r of rows){if(window.SigmaExcludedLeads.matches(r)){result.excluded++;continue;}const full=norm(r.name),email=String(r.email||'').toLowerCase();let found=db.clients.filter(c=>email&&String(c.email||'').toLowerCase()===email);if(!found.length)found=db.clients.filter(c=>norm(c.firstName+' '+c.lastName)===full||norm(c.lastName+' '+c.firstName)===full);if(!found.length&&r.matches.length)found=db.clients.filter(c=>r.matches.some(m=>c.id===m.id&&norm(c.lastName)===norm(m.lastName)));if(!found.length){const last=norm(r.lastName),first=norm(r.firstName);found=db.clients.filter(c=>norm(c.lastName)===last&&(norm(c.firstName)===first||full.includes(norm(c.firstName)+' ')));}if(found.length){for(const c of found){let changed=false;for(const k of ['email','envelope'])if((c[k]==null||c[k]==='')&&r[k]!=null){c[k]=r[k];changed=true;}if(!c.immoSourceLabel){c.immoSourceLabel=r.name;c.immoSourceSnapshot=r.sourceNotes;changed=true;}if(changed){auditLead(c,'Enrichissement source Pôle Immo','Liste transmise le 07/10/2026 · statut et données existantes conservés');result.enriched++;}}continue;}const surname=norm(r.lastName),suspects=db.clients.filter(c=>surname&&norm(c.lastName).split(' ').some(t=>t.length>3&&surname.split(' ').includes(t)));if(suspects.length){result.ambiguous++;continue;}const c=emptyClient();c.firstName=r.firstName;c.lastName=r.lastName;c.email=r.email;c.envelope=r.envelope??'';c.stage=r.stage;c.immoSourceLabel=r.name;c.immoSourceSnapshot=r.sourceNotes;c.notes='Source Pôle Immo 07/10/2026 · '+r.sourceStatus+'\n'+r.sourceNotes;c.source='Liste Pôle Immo · 07/10/2026';auditLead(c,'Création Pôle Immo','Import sans doublon');db.clients.push(c);result.created++;}store();renderAll();window.dispatchEvent(new CustomEvent('sigma:lead-updated'));return result;},syncJuniorRows:(rows,source,lastAt,baseline={})=>{const out={updated:0,unchanged:0,unmatched:0,conflicts:0,details:[],snapshot:{}};for(const raw of rows){const value=k=>Object.entries(raw).find(([a])=>norm(a)===norm(k))?.[1];const ref=value('id')||value('sourceId')||value('Identifiant CRM'),email=value('email')||value('E-mail');let matches=ref?db.clients.filter(c=>c.id===ref||c.sourceId===ref):email?db.clients.filter(c=>norm(c.email)===norm(email)):[];if(!ref&&!email){const first=value('Prénom')||value('firstName'),last=value('Nom')||value('lastName');if(first&&last)matches=db.clients.filter(c=>norm(c.firstName)===norm(first)&&norm(c.lastName)===norm(last));}if(matches.length!==1){out.unmatched++;out.details.push('Non rapproché : '+(ref||email||value('Nom')||'ligne sans identifiant'));continue;}const c=matches[0],r=normalizeRow({...raw,firstName:c.firstName,lastName:c.lastName});if(!r){out.unmatched++;continue;}const patch={};for(const k of ['email','phone','subscription','brokerName','agency','notes','geoSector','agentName','comment','envelope','offerFAI'])if(r[k]!==undefined&&String(r[k]).trim()!=='')patch[k]=['envelope','offerFAI'].includes(k)?amount(r[k]):String(r[k]).slice(0,k==='notes'?5000:250);if(r.stage!==undefined){const st=stageFromText(r.stage);if(st)patch.stage=st;else out.details.push('Étape non reconnue : '+r.stage);}const changed=Object.entries(patch).filter(([k,v])=>String(c[k]??'')!==String(v));if(changed.some(([k])=>lastAt&&new Date(c.updatedAt)>new Date(lastAt)&&(!baseline[c.id]||String(baseline[c.id][k]??'')!==String(c[k]??'')))){out.conflicts++;out.details.push('Modification CRM plus récente : '+c.firstName+' '+c.lastName);continue;}if(changed.length){Object.assign(c,patch);auditLead(c,'Synchronisation Junior',source+' · '+changed.map(([k])=>k).join(', '));out.updated++;}else out.unchanged++;out.snapshot[c.id]=Object.fromEntries(Object.keys(patch).map(k=>[k,c[k]]));}if(out.updated){store();renderAll();window.dispatchEvent(new CustomEvent('sigma:lead-updated'));}return out;},renameContact:(kind,oldName,newName)=>{const key=({courtiers:'brokerName',agents:'agentName',notaires:'notaryBuyer',ambassadeurs:'ambassadorName'})[kind];if(!key)return;for(const c of db.clients){if(c[key]===oldName){c[key]=newName;auditLead(c,'Nom du contact actualisé',oldName+' → '+newName);}}if(drawerDraft&&drawerDraft[key]===oldName)drawerDraft[key]=newName;store();renderAll();window.dispatchEvent(new CustomEvent('sigma:lead-updated'));},routeSAV,assignContact:(id,kind,name)=>{const key=({courtiers:'brokerName',agents:'agentName',notaires:'notaryBuyer',ambassadeurs:'ambassadorName'})[kind],c=db.clients.find(x=>x.id===id);if(!key||!c)return false;const contact=name?window.SigmaContacts.getAll(kind).find(x=>x.nom===name):null;if(name&&!contact)return false;const old=c[key]||'';if(old===name)return true;c[key]=name;if(kind==='agents')c.agency=contact?.entreprise||'';auditLead(c,'Rattachement '+kind,(old||'Non attribué')+' → '+(name||'Retiré'));store();renderAll();window.dispatchEvent(new CustomEvent('sigma:lead-updated'));return true;},createLead:(data)=>{const c=hydrateClient({...emptyClient(),...data,source:"Data Center"});db.clients.push(c);auditLead(c,"Création depuis la Data Center",c.firstName+" "+c.lastName);store();renderAll();return c.id;},assignAmbassador:(id,name)=>{const c=db.clients.find(x=>x.id===id);if(!c||!window.SigmaContacts.getAll("ambassadeurs").some(a=>a.nom===name))return false;if(c.ambassadorName===name)return true;c.ambassadorName=name;auditLead(c,"Ambassadeur du deal",name);store();renderAll();return true;},getLeads:()=>JSON.parse(JSON.stringify(db.clients)),openLead:openDrawer,recordAction:(id,label,detail)=>{const c=db.clients.find(x=>x.id===id);if(!c)return;auditLead(c,label,detail);store();renderAll();},getClientCount:()=>db.clients.length,openView:(id)=>{if(['overview','clients','pipeline','biens','litiges','drive','cloud','courtiers','agents','notaires','ambassadeurs','knowledge','callbacks'].includes(id))setView(id);},parseCloudCSV:csvParse,ingestFromCloud:(rows,name)=>ingest(rows,{source:'Data Center · '+name,driveDefaults:false}),ingestFromAuthorizedDrive:(rows)=>ingest(rows,{source:'Google Drive · MANDATS SIGNÉS',driveDefaults:true})});
 })();
 
 
@@ -5082,7 +5138,7 @@ async function upload(n,list){if(!list.length)return;const at=new Date().toISOSt
 function drives(){for(const u of urls.values())URL.revokeObjectURL(u);urls.clear();$('juniorDrives').innerHTML=[1,2,3].map(n=>`<section class="junior-drive" data-junior="${n}"><div class="eyebrow">ESPACE DE TRAVAIL ${n}</div><h2>Drive Pipe Junior ${n}</h2><p>${files.filter(f=>f.junior===n).length} fichier(s)</p><label class="junior-drop">Glissez vos fichiers ici ou choisissez-les<input type="file" multiple data-junior-upload="${n}" aria-label="Déposer dans Drive Pipe Junior ${n}"></label><div class="junior-google" data-google-junior="${n}"></div><div class="junior-files">${files.filter(f=>f.junior===n).map(f=>{const url=URL.createObjectURL(f.blob);urls.set(f.id,url);return `<div><strong>${esc(f.name)}</strong><small>${Math.ceil(f.size/1024)} Ko · ${new Date(f.at).toLocaleString('fr-FR')}</small><a href="${url}" target="_blank" rel="noopener">Ouvrir</a><a href="${url}" download="${esc(f.name)}">Télécharger</a></div>`}).join('')||'<p>Aucun fichier déposé.</p>'}</div></section>`).join('');}
 $('juniorDrives').onchange=e=>{if(e.target.dataset.juniorUpload)upload(Number(e.target.dataset.juniorUpload),Array.from(e.target.files))};$('juniorDrives').ondragover=e=>{const box=e.target.closest('[data-junior]');if(box){e.preventDefault();box.classList.add('dragging')}};$('juniorDrives').ondragleave=e=>e.target.closest('[data-junior]')?.classList.remove('dragging');$('juniorDrives').ondrop=e=>{const box=e.target.closest('[data-junior]');if(!box)return;e.preventDefault();box.classList.remove('dragging');upload(Number(box.dataset.junior),Array.from(e.dataTransfer.files))};window.addEventListener('sigma:lead-updated',render);window.SigmaCallbacks={getAll:()=>JSON.parse(JSON.stringify(rows)),render};window.SigmaJuniorDrives={getAll:()=>files.map(({blob,...f})=>f),render:drives};save();render();drives();window.dispatchEvent(new Event('sigma:juniors-ready'));})();</script><style>#sigma-crm-preview .sigma-pipe-search,#sigma-crm-preview #callbacksView .search-wrap{display:flex;align-items:center;gap:12px;position:relative;background:#fff;border:1px solid #d5e2f3;border-radius:12px;padding:0 16px;min-height:50px;width:100%;box-sizing:border-box;overflow:hidden}#sigma-crm-preview .sigma-pipe-search>span{position:static;display:block;flex:0 0 18px;color:#72849e;font-size:20px;line-height:1}#sigma-crm-preview .sigma-pipe-search input{position:static;flex:1;min-width:0;width:100%;border:0!important;background:transparent;padding:14px 0!important;box-shadow:none;font:inherit;color:#244368}#sigma-crm-preview .junior-google{border-top:1px solid #e1e9f5;margin-top:22px;padding-top:18px}#sigma-crm-preview .junior-google label{display:block;font-size:13px;font-weight:600;color:#365574}#sigma-crm-preview .junior-google input{display:block;width:100%;box-sizing:border-box;padding:11px;border:1px solid #d5e2f3;border-radius:9px;margin:8px 0 12px;color:#244368}#sigma-crm-preview .junior-google p{font-size:12px;line-height:1.6;color:#68788d}#sigma-crm-preview .junior-google .btn{margin:4px 6px 4px 0}</style><script>(async()=>{await window.sigmaStorageReady;const K='sigma.factory.junior.google.v1',S=window.sigmaPreviewStorage;let links=[];try{links=JSON.parse(S.getItem(K)||'[]')}catch{}const busy=new Set(),esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const persist=()=>S.setItem(K,JSON.stringify(links));function ui(){document.querySelectorAll('[data-google-junior]').forEach(el=>{const n=Number(el.dataset.googleJunior),r=links.find(x=>x.n===n)||{};el.innerHTML=`<label>Google Doc / Google Sheet Junior ${n}<input type="url" data-google-url="${n}" value="${esc(r.url||'')}" placeholder="https://docs.google.com/document/d/…"></label><button class="btn" data-google-save="${n}">Lier le document</button><button class="btn primary" data-google-sync="${n}" ${r.url?'':'disabled'}>Synchroniser le Pipe</button>${r.url?`<a href="${esc(r.url)}" target="_blank" rel="noopener">Ouvrir le document ↗</a>`:''}<p>Document partagé accessible par le lien. Utilisez un tableau avec Identifiant CRM ou Prénom + Nom, puis les champs à actualiser (Étape, Email, Téléphone, Notes, Budget).</p><p role="status">${esc(r.status||'Aucun document lié.')} ${r.at?'· '+new Date(r.at).toLocaleString('fr-FR'):''}</p>`;});}function parse(text,format){if(format==='csv')return window.SigmaCRM.parseCloudCSV(text);const doc=new DOMParser().parseFromString(text,'text/html'),rows=[];for(const table of doc.querySelectorAll('table')){const trs=Array.from(table.querySelectorAll('tr'));if(trs.length<2)continue;const headers=Array.from(trs[0].querySelectorAll('td,th')).map(c=>c.textContent.trim());for(const tr of trs.slice(1)){const cells=Array.from(tr.querySelectorAll('td,th'));if(cells.length)rows.push(Object.fromEntries(headers.map((h,i)=>[h,cells[i]?.textContent.trim()||''])));}}if(!rows.length)throw Error('Aucun tableau exploitable : ajoutez un tableau avec des en-têtes dans le Google Doc.');return rows;}
 async function sync(n){const r=links.find(x=>x.n===n);if(!r||busy.has(n))return;busy.add(n);r.status='Lecture du document…';ui();try{if(window.sigmaHumanDirty||document.activeElement?.closest('#drawer'))throw Error('Une fiche CRM est en cours de modification. Terminez votre saisie avant de synchroniser.');const res=await fetch('/.netlify/functions/crm?op=google-document',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({url:r.url})});const data=await res.json();if(!res.ok)throw Error(data.error||'Lecture Google impossible');const rows=parse(data.content,data.format);const out=window.SigmaCRM.syncJuniorRows(rows,'Drive Pipe Junior '+n,r.at,r.baseline||{});if(!out.conflicts)r.at=new Date().toISOString();r.baseline={...(r.baseline||{}),...out.snapshot};r.status=out.updated+' mis à jour · '+out.unchanged+' identiques · '+out.unmatched+' non rapprochés · '+out.conflicts+' conflits';r.details=out.details;persist();}catch(e){r.status=e.message;persist();}finally{busy.delete(n);ui();}}
-document.getElementById('juniorDrives').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.googleSave){const n=Number(b.dataset.googleSave),url=document.querySelector('[data-google-url="'+n+'"]').value.trim();if(!/^https:\/\/docs\.google\.com\/(document|spreadsheets)\/d\/[A-Za-z0-9_-]+/.test(url)){alert('Utilisez un lien Google Docs ou Google Sheets valide.');return;}let r=links.find(x=>x.n===n);if(!r){r={n};links.push(r);}if(r.url!==url){r.at=null;r.baseline={};}r.url=url;r.status='Document lié · synchronisation automatique toutes les 60 secondes pendant la connexion au CRM.';persist();ui();sync(n);}if(b.dataset.googleSync)sync(Number(b.dataset.googleSync));});window.addEventListener('sigma:juniors-ready',ui);new MutationObserver(()=>{for(const el of document.querySelectorAll('[data-google-junior]'))if(!el.children.length){ui();break;}}).observe(document.getElementById('juniorDrives'),{childList:true});ui();setInterval(()=>{if(document.visibilityState==='visible')for(const r of links)sync(r.n);},60000);window.SigmaJuniorGoogle={sync,parse,getAll:()=>JSON.parse(JSON.stringify(links))};})();</script></body></html><style>
+document.getElementById('juniorDrives').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.googleSave){const n=Number(b.dataset.googleSave),url=document.querySelector('[data-google-url="'+n+'"]').value.trim();if(!/^https:\/\/docs\.google\.com\/(document|spreadsheets)\/d\/[A-Za-z0-9_-]+/.test(url)){alert('Utilisez un lien Google Docs ou Google Sheets valide.');return;}let r=links.find(x=>x.n===n);if(!r){r={n};links.push(r);}if(r.url!==url){r.at=null;r.baseline={};}r.url=url;r.status='Document lié · synchronisation automatique toutes les 60 secondes pendant la connexion au CRM.';persist();ui();sync(n);}if(b.dataset.googleSync)sync(Number(b.dataset.googleSync));});window.addEventListener('sigma:juniors-ready',ui);new MutationObserver(()=>{for(const el of document.querySelectorAll('[data-google-junior]'))if(!el.children.length){ui();break;}}).observe(document.getElementById('juniorDrives'),{childList:true});ui();setInterval(()=>{if(document.visibilityState==='visible')for(const r of links)sync(r.n);},60000);window.SigmaJuniorGoogle={sync,parse,getAll:()=>JSON.parse(JSON.stringify(links))};})();</script><script>window.sigmaStorageReady.then(()=>{const timer=setInterval(()=>{if(!window.SigmaCRM?.mergeImmoSource)return;clearInterval(timer);const key="sigma.factory.import.immo.20261007.v1";if(window.sigmaPreviewStorage.getItem(key))return;const result=window.SigmaCRM.mergeImmoSource([{"name": "Pascal Ravalleau", "firstName": "Pascal", "lastName": "Ravalleau", "email": "pascal.ravalleau@laposte.net", "envelope": null, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\nÉtat Civil ✓\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nÀ l’instant", "matches": [{"id": "seed-202608030126", "firstName": "Pascal", "lastName": "RAVALLEAU"}], "stage": "realestate"}, {"name": "Rafissatou & Chérif MOUSTAPHA", "firstName": "Rafissatou & Chérif", "lastName": "MOUSTAPHA", "email": "youssouf.rafia@yahoo.fr", "envelope": 130000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n130 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 3 biens 🏠 3 biens présentés\nIl y a 8j", "matches": [{"id": "seed-20260710093", "firstName": "Rafissatou", "lastName": "YOUSSOUF"}], "stage": "realestate"}, {"name": "Joseph Tonye", "firstName": "Joseph", "lastName": "Tonye", "email": "joseph.tonye@gmail.com", "envelope": 230000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n230 000 €\nÉtat Civil ✓\nPré-mandat ✓\nMandat –\nCourtage –\nCrédit ✓\n⛔ Non pris en charge\nIl y a 29j", "matches": [{"id": "seed-202607160102", "firstName": "Joseph", "lastName": "TONYE"}], "stage": "realestate"}, {"name": "Adeline Reuzé", "firstName": "Adeline", "lastName": "Reuzé", "email": "reuze.adeline@free.fr", "envelope": 120000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n120 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 23j", "matches": [], "stage": "realestate"}, {"name": "Tiémoko KARABOUALY", "firstName": "Tiémoko", "lastName": "KARABOUALY", "email": "tim.karaboualy@gmail.com", "envelope": 110000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n110 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 74j", "matches": [{"id": "seed-202607210113", "firstName": "Tiémoko", "lastName": "KARABOUALY"}], "stage": "realestate"}, {"name": "Thomas CANTIE", "firstName": "Thomas", "lastName": "CANTIE", "email": "thomasatomix@gmail.com", "envelope": 100000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n100 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 29j", "matches": [{"id": "seed-202607060092", "firstName": "Thomas", "lastName": "CANTIE"}], "stage": "realestate"}, {"name": "Souhail KHACHAM", "firstName": "Souhail", "lastName": "KACHAM", "email": "souhail78@gmail.com", "envelope": 160000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n160 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 65j", "matches": [], "stage": "realestate"}, {"name": "Simon LEJOSNE", "firstName": "Simon", "lastName": "LEJOSNE", "email": "simon.lejo@gmail.com", "envelope": 300000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n300 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j", "matches": [], "stage": "realestate"}, {"name": "Sandrine KANGNE", "firstName": "Sandrine", "lastName": "KANGNE", "email": "sandrinekangne@yahoo.fr", "envelope": 90000, "assignedSource": "Elodie", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Elodie\n90 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Elodie\nIl y a 49j", "matches": [{"id": "seed-202607290056", "firstName": "Sandrine", "lastName": "KANGNE"}], "stage": "realestate"}, {"name": "Ronan GOUSSEAU", "firstName": "Ronan", "lastName": "GOUSSEAU", "email": "ronan.gousseau@gmail.com", "envelope": 80000, "assignedSource": "Amandine Guisgand", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Amandine Guisgand\n80 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Amandine Guisgand\nIl y a 49j", "matches": [{"id": "seed-202607270121", "firstName": "Ronan", "lastName": "GOUSSEAU"}], "stage": "realestate"}, {"name": "Rémy Reig", "firstName": "Rémy", "lastName": "Reig", "email": "xeldor69@gmail.com", "envelope": 100000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n100 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 60j", "matches": [], "stage": "realestate"}, {"name": "Reine Komlan-Wome", "firstName": "Reine", "lastName": "Komlan-Wome", "email": "kreine3@hotmail.com", "envelope": 130000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n130 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 49j", "matches": [{"id": "seed-202607270120", "firstName": "Reine", "lastName": "KOMLAN-WOME"}], "stage": "realestate"}, {"name": "Océane GREGE", "firstName": "Océane", "lastName": "GREGE", "email": "oceane.grege@gmail.com", "envelope": 100000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n100 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 74j", "matches": [{"id": "seed-202608030125", "firstName": "Océane", "lastName": "GREGE"}], "stage": "realestate"}, {"name": "Ny Tsanta & Noémie ANDRIAMANJATO", "firstName": "Ny Tsanta & Noémie", "lastName": "ANDRIAMANJATO", "email": "ny.tsanta@hotmail.com", "envelope": 350000, "assignedSource": "Elodie", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Elodie\n350 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Elodie\nIl y a 74j", "matches": [{"id": "seed-202605060054", "firstName": "Ny", "lastName": "ANDRIAMANJATO"}], "stage": "realestate"}, {"name": "Nicolas Lorente", "firstName": "Nicolas", "lastName": "Lorente", "email": "nlolo4@gmail.com", "envelope": null, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 60j", "matches": [{"id": "seed-202603110004", "firstName": "Nicolas", "lastName": "LORENTE"}], "stage": "realestate"}, {"name": "Nathalie CLAUDANT", "firstName": "Nathalie", "lastName": "CLAUDANT", "email": "biz.nathalie@hotmail.fr", "envelope": 80000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n80 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 74j", "matches": [], "stage": "realestate"}, {"name": "Marmetz et Ruben Barcelo", "firstName": "Marmetz et Ruben", "lastName": "Barcelo", "email": "fevier222003@gmail.com", "envelope": 270000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n270 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 49j", "matches": [{"id": "seed-202607230089", "firstName": "Marmetz", "lastName": "BARCELO"}], "stage": "realestate"}, {"name": "Marie-Françoise DANGLADES", "firstName": "Marie-Françoise", "lastName": "DANGLADES", "email": "marie.sylvia@yahoo.fr", "envelope": 105000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n105 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 49j", "matches": [{"id": "seed-202607060086", "firstName": "Marie-Françoise", "lastName": "DANGLADES"}], "stage": "realestate"}, {"name": "Samba Cédric Lusakweno", "firstName": "Samba Cédric", "lastName": "Lusakweno", "email": "clsamba@hotmail.fr", "envelope": 150000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n150 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 60j", "matches": [], "stage": "realestate"}, {"name": "Ludwig LACEK", "firstName": "Ludwig", "lastName": "LACEK", "email": "lacek.ludwig@gmail.com", "envelope": 210000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n210 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j", "matches": [], "stage": "realestate"}, {"name": "Landry REGNAULT", "firstName": "Landry", "lastName": "REGNAULT", "email": "landry.sophie@hotmail.fr", "envelope": 180000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n180 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j", "matches": [], "stage": "realestate"}, {"name": "Karine et Vincent Khokhemkham", "firstName": "Karine et Vincent", "lastName": "Khokhemkham", "email": "92karinebusiness@gmail.com", "envelope": 400000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n400 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 2 biens 🏠 2 biens présentés\nIl y a 49j", "matches": [{"id": "seed-202607250119", "firstName": "Karine", "lastName": "KHOKHEMKHAM"}], "stage": "realestate"}, {"name": "Josée & Ji RAZANAKOTO", "firstName": "Josée & Ji", "lastName": "RAZANAKOTO", "email": "jirako85@gmail.com", "envelope": 180000, "assignedSource": "Elodie", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Elodie\n180 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Elodie\nIl y a 74j", "matches": [{"id": "seed-202607060086", "firstName": "Josée", "lastName": "RAZANAKOTO"}], "stage": "realestate"}, {"name": "Tristan ETIENNE", "firstName": "Tristan", "lastName": "ETIENNE", "email": "tristanetienne93@gmail.com", "envelope": 200000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n200 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 49j", "matches": [], "stage": "realestate"}, {"name": "Jonathan Dubourg", "firstName": "Jonathan", "lastName": "Dubourg", "email": "dubourg.jonathan@hotmail.fr", "envelope": 200000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n200 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 73j", "matches": [], "stage": "realestate"}, {"name": "Johannick Guillaume", "firstName": "Johannick", "lastName": "Guillaume", "email": "johannick.guillaume.84@gmail.com", "envelope": 160000, "assignedSource": "Elodie", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Elodie\n160 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n✓ Offre acceptée ✅ Offre acceptée\nIl y a 74j", "matches": [], "stage": "offer"}, {"name": "Jean Louvenson VICTOR", "firstName": "Jean Louvenson", "lastName": "VICTOR", "email": "victorjean2@gmail.com", "envelope": 170000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n170 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 60j", "matches": [{"id": "seed-202607300124", "firstName": "Jean", "lastName": "VICTOR"}], "stage": "realestate"}, {"name": "Jean Louis MONDOU", "firstName": "Jean Louis", "lastName": "MONDOU", "email": "jeanlouismondou@yahoo.fr", "envelope": 204000, "assignedSource": "Elodie", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Elodie\n204 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Elodie\nIl y a 49j", "matches": [], "stage": "realestate"}, {"name": "Henry Benoît & Sarah Audrey NDONG FRACHET", "firstName": "Henry Benoît & Sarah Audrey NDONG", "lastName": "FRACHET", "email": "beny1784@yahoo.fr", "envelope": 240000, "assignedSource": "Elise Szymendera", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Elise Szymendera\n240 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n✓ Offre acceptée ✅ Offre acceptée\nIl y a 59j", "matches": [{"id": "seed-202605080055", "firstName": "Henry", "lastName": "NDONG"}], "stage": "offer"}, {"name": "Guillaume GRANDIN", "firstName": "Guillaume", "lastName": "GRANDIN", "email": "guillaumegrandin63@gmail.com", "envelope": 130000, "assignedSource": "Elodie", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Elodie\n130 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Elodie\nIl y a 74j", "matches": [], "stage": "realestate"}, {"name": "Frédéric et Nicolas PROSPER MAILLET", "firstName": "Frédéric et Nicolas PROSPER", "lastName": "MAILLET", "email": "nmaillet71@gmail.com", "envelope": 160000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n160 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j", "matches": [{"id": "seed-202608040126", "firstName": "Nicolas", "lastName": "MAILLET"}], "stage": "realestate"}, {"name": "Franck Félicité Zulma", "firstName": "Franck Félicité", "lastName": "Zulma", "email": "sakinawa1@yahoo.fr", "envelope": 170000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n170 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 60j", "matches": [], "stage": "realestate"}, {"name": "Erastus Van Putten", "firstName": "Erastus Van", "lastName": "Putten", "email": "erastus.1@hotmail.com", "envelope": 150000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n150 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 60j", "matches": [{"id": "seed-202605130057", "firstName": "Erastus", "lastName": "VAN PUTTEN"}], "stage": "realestate"}, {"name": "Emmanuelle MAKOSSO", "firstName": "Emmanuelle", "lastName": "MAKOSSO", "email": "ammemak@gmail.com", "envelope": 90000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n90 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 66j", "matches": [{"id": "seed-202607160100", "firstName": "Emmanuelle", "lastName": "MAKOSSO"}], "stage": "realestate"}, {"name": "Elodie GREFFIER", "firstName": "Elodie", "lastName": "GREFFIER", "email": "lodie.makeup@gmail.com", "envelope": 90000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n90 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 60j", "matches": [{"id": "seed-202607060091", "firstName": "Elodie", "lastName": "GREFFIER"}], "stage": "realestate"}, {"name": "Dorothée LALLIER", "firstName": "Dorothée", "lastName": "LALLIER", "email": "doro62116@hotmail.fr", "envelope": null, "assignedSource": "Elodie", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Elodie\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 3 biens 🏠 3 biens présentés\nIl y a 49j", "matches": [{"id": "seed-202607280122", "firstName": "Dorothée", "lastName": "LALLIER"}], "stage": "realestate"}, {"name": "Didier CHIPAN", "firstName": "Didier", "lastName": "CHIPAN", "email": "dchipan@hotmail.fr", "envelope": 180000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n180 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 59j", "matches": [], "stage": "realestate"}, {"name": "Jonathan Deloumeaux", "firstName": "Jonathan", "lastName": "Deloumeaux", "email": "jonathan.deloumeaux@gmail.com", "envelope": 160000, "assignedSource": null, "sourceStatus": "En pause", "sourceNotes": "En pause\n160 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 49j", "matches": [], "stage": "realestate"}, {"name": "Fabrice Dedouit", "firstName": "Fabrice", "lastName": "Dedouit", "email": "fabded2@hotmail.com", "envelope": 600000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n600 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 65j", "matches": [], "stage": "realestate"}, {"name": "Clément et Lysa Chirade et Brejaud", "firstName": "Clément et Lysa Chirade et", "lastName": "Brejaud", "email": "clement.chirade@gmail.com", "envelope": 220000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n220 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 49j", "matches": [{"id": "seed-202603110011", "firstName": "Clément", "lastName": "CHIRADE"}], "stage": "realestate"}, {"name": "Chloé et Tommy Manferdini Cabrimol", "firstName": "Chloé et Tommy Manferdini", "lastName": "Cabrimol", "email": "chloe.cabrimol@hotmail.com", "envelope": 190000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n190 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j", "matches": [{"id": "seed-202607200109", "firstName": "Tommy", "lastName": "MANFERDINI"}], "stage": "realestate"}, {"name": "Chéima JAOUADI", "firstName": "Chéima", "lastName": "JAOUADI", "email": "chimakalai@gmail.com", "envelope": 250000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n250 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j", "matches": [], "stage": "realestate"}, {"name": "Charlery BURNER", "firstName": "Charlery", "lastName": "BURNER", "email": "charlery.burner@protonmail.com", "envelope": 220000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n220 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 26j", "matches": [], "stage": "realestate"}, {"name": "Cédric Antony", "firstName": "Cédric", "lastName": "Antony", "email": "cedricantony9@gmail.com", "envelope": 150000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n150 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 60j", "matches": [{"id": "seed-202603310030", "firstName": "Cédric", "lastName": "ANTONY"}], "stage": "realestate"}, {"name": "Quentin et Aline Yau Bucher", "firstName": "Quentin et Aline Yau", "lastName": "Bucher", "email": "aline.yau@gmail.com", "envelope": 300000, "assignedSource": "Elodie", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Elodie\n300 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n✓ Offre acceptée ✅ Offre acceptée\nIl y a 74j", "matches": [{"id": "seed-202605130058", "firstName": "Aline", "lastName": "YAU"}], "stage": "offer"}, {"name": "Benjamin & Delphine PICARD", "firstName": "Benjamin & Delphine", "lastName": "PICARD", "email": "benjamin.picard@groupe-zephyr.fr", "envelope": 300000, "assignedSource": "Elodie", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Elodie\n300 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Elodie\nIl y a 49j", "matches": [], "stage": "realestate"}, {"name": "Bénédicte HUREL", "firstName": "Bénédicte", "lastName": "HUREL", "email": "benedicte.hurel@bbox.fr", "envelope": 105000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n105 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 49j", "matches": [], "stage": "realestate"}, {"name": "Aurely et Sylvain Gauffroy", "firstName": "Aurely et Sylvain", "lastName": "Gauffroy", "email": "aurely.m@live.fr", "envelope": 273000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n273 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 49j", "matches": [], "stage": "realestate"}, {"name": "Anthony Menthon", "firstName": "Anthony", "lastName": "Menthon", "email": "anthony.menthon@hotmail.fr", "envelope": 300000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n300 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 4 biens 🏠 4 biens présentés\nIl y a 62j", "matches": [{"id": "seed-202603110007", "firstName": "Anthony", "lastName": "MENTHON"}], "stage": "realestate"}, {"name": "Amélie BASHIERA", "firstName": "Amélie", "lastName": "BASHIERA", "email": "baschiera.amelie@gmail.com", "envelope": 117000, "assignedSource": "Elodie", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Elodie\n117 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n✓ Offre acceptée ✅ Offre acceptée\nIl y a 49j", "matches": [{"id": "seed-202605130056", "firstName": "Amélie", "lastName": "BASCHIERA"}], "stage": "offer"}, {"name": "Alexandre DECOSNE", "firstName": "Alexandre", "lastName": "DECOSNE", "email": "yepes21000@hotmail.fr", "envelope": 110000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n110 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 49j", "matches": [], "stage": "realestate"}, {"name": "Jennifer Sartori", "firstName": "Jennifer", "lastName": "Sartori", "email": "jennisart@hotmail.com", "envelope": 500000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n500 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 65j", "matches": [{"id": "seed-202607210115", "firstName": "Jennifer", "lastName": "SARTORI"}], "stage": "realestate"}, {"name": "Fidèle MATEO SOPPO NDAME LOBE", "firstName": "Fidèle MATEO SOPPO NDAME", "lastName": "LOBE", "email": "fifisoppo@live.fr", "envelope": 100000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n100 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 49j", "matches": [], "stage": "realestate"}, {"name": "Maxime Clair", "firstName": "Maxime", "lastName": "Clair", "email": "maximeclair15@gmail.com", "envelope": 310000, "assignedSource": null, "sourceStatus": "Actif", "sourceNotes": "Actif\n310 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⛔ Non pris en charge\nIl y a 60j", "matches": [], "stage": "realestate"}, {"name": "Ousmane Sylla DIOP", "firstName": "Ousmane Sylla", "lastName": "DIOP", "email": "syllaousmanediop2830@gmail.com", "envelope": 170000, "assignedSource": "Elodie", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Elodie\n170 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Elodie\nIl y a 35j", "matches": [], "stage": "realestate"}, {"name": "Wilfried Bonnet", "firstName": "Wilfried", "lastName": "Bonnet", "email": "w.bonnet@hotmail.fr", "envelope": 500000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n500 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j", "matches": [{"id": "seed-202606280084", "firstName": "Wilfried", "lastName": "BONNET"}], "stage": "realestate"}, {"name": "Nahir Marc Mohamed & Angele Marie Verdon", "firstName": "Nahir Marc Mohamed & Angele Marie", "lastName": "Verdon", "email": "angele.verdon@gmail.com", "envelope": 300000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n300 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 3 biens 🏠 3 biens présentés\nIl y a 49j", "matches": [{"id": "seed-202603130029", "firstName": "Nahir", "lastName": "MOHAMED"}], "stage": "realestate"}, {"name": "Yveline Larichesse", "firstName": "Yveline", "lastName": "Larichesse", "email": "yveline.larichesse@gmail.com", "envelope": null, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 59j", "matches": [{"id": "seed-202603110008", "firstName": "Yveline", "lastName": "LARICHESSE"}], "stage": "realestate"}, {"name": "Benoit Serge Jean Michel Perros", "firstName": "Benoit Serge Jean Michel", "lastName": "Perros", "email": "benperros74@gmail.com", "envelope": 250000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n250 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 3 biens 🏠 3 biens présentés\nIl y a 24j", "matches": [{"id": "seed-202602230003", "firstName": "Benoît", "lastName": "PERROS"}], "stage": "realestate"}, {"name": "Chantal Disidi Mvwandulu Ngumbu Munganga", "firstName": "Chantal Disidi Mvwandulu Ngumbu", "lastName": "Munganga", "email": "chantaldisidi@hotmail.com", "envelope": 100000, "assignedSource": "Elodie", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Elodie\n100 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Elodie\nIl y a 59j", "matches": [{"id": "seed-202603130015", "firstName": "Chantal", "lastName": "DISIDI MVWANDULU"}], "stage": "realestate"}, {"name": "Wassila MEKESSER", "firstName": "Wassila", "lastName": "MEKESSER", "email": "w_mekesser@yahoo.fr", "envelope": 300000, "assignedSource": "Hanna", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Hanna\n300 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 1 bien 🏠 1 bien présenté\nIl y a 69j", "matches": [], "stage": "realestate"}, {"name": "Laurant LIHRMANN", "firstName": "Laurent", "lastName": "LIHRMANN", "email": "laurent68123@gmail.com", "envelope": 250000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n250 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 8 biens 🏠 8 biens présentés\nIl y a 52j", "matches": [{"id": "seed-202607230044", "firstName": "Laurent", "lastName": "LIHRMANN"}], "stage": "realestate"}, {"name": "Guillaume NORTH", "firstName": "Guillaume", "lastName": "NORTH", "email": "adrprincipale@hotmail.fr", "envelope": 150000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n150 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 1 bien 🏠 1 bien présenté\nIl y a 49j", "matches": [{"id": "seed-202607230057", "firstName": "Guillaume", "lastName": "NORTH"}], "stage": "realestate"}, {"name": "Julien MESNIL", "firstName": "Julien", "lastName": "MESNIL", "email": "julien.mesnil@hotmail.fr", "envelope": 200000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n200 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 3 biens 🏠 3 biens présentés\nIl y a 49j", "matches": [{"id": "seed-202607290116", "firstName": "Julien", "lastName": "MESNIL"}], "stage": "realestate"}, {"name": "Valérie DUPUIS", "firstName": "Valérie", "lastName": "DUPUIS", "email": "dupuisvlr@gmail.com", "envelope": 250000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n250 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 2 biens 🏠 2 biens présentés\nIl y a 8j", "matches": [{"id": "seed-202607230042", "firstName": "Valérie", "lastName": "DUPUIS"}], "stage": "realestate"}, {"name": "Julie FAALOUS", "firstName": "Julie", "lastName": "FAALOUS", "email": "jujufafa59@gmail.com", "envelope": 200000, "assignedSource": "Elodie", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Elodie\n200 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 3 biens 🏠 3 biens présentés\nIl y a 49j", "matches": [{"id": "seed-202607230058", "firstName": "Julie", "lastName": "FAALOUS"}], "stage": "realestate"}, {"name": "Alain LOIRAT", "firstName": "Alain", "lastName": "LOIRAT", "email": "alainloirat79@gmail.com", "envelope": 140000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n140 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j", "matches": [{"id": "seed-202607160101", "firstName": "Alain", "lastName": "LOIRAT"}], "stage": "realestate"}, {"name": "Franck VALENTIN", "firstName": "Franck", "lastName": "VALENTIN", "email": "gladiator451@hotmail.fr", "envelope": 150000, "assignedSource": "elodie", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 elodie\n150 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 1 bien 🏠 1 bien présenté\nIl y a 49j", "matches": [{"id": "seed-202605060052", "firstName": "Franck", "lastName": "VALENTIN"}], "stage": "realestate"}, {"name": "Soufiane Mousterji", "firstName": "Soufiane", "lastName": "Mousterji", "email": "smousterji@yahoo.com", "envelope": null, "assignedSource": "Elodie", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Elodie\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n✓ Offre acceptée ✅ Offre acceptée\nIl y a 62j", "matches": [{"id": "seed-202603130021", "firstName": "Soufiane", "lastName": "MOUSTERJI"}], "stage": "offer"}, {"name": "Zhandra RONDON", "firstName": "Zhandra", "lastName": "RONDON", "email": "galerazhandra@gmail.com", "envelope": 122000, "assignedSource": "elodie", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 elodie\n122 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 elodie\nIl y a 49j", "matches": [], "stage": "realestate"}, {"name": "Tiavina Ravelonjatovo", "firstName": "Tiavina", "lastName": "Ravelonjatovo", "email": "tiavina1@hotmail.fr", "envelope": 160000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n160 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 3 biens 🏠 3 biens présentés\nIl y a 57j", "matches": [{"id": "seed-202607100095", "firstName": "Non", "lastName": "RAVELONJATOVO"}], "stage": "realestate"}, {"name": "Varinka PONOMALE", "firstName": "Varinka", "lastName": "PONOMALE", "email": "varinka.ponamale@gmail.com", "envelope": 400000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n400 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j", "matches": [{"id": "seed-202605060050", "firstName": "Varinka", "lastName": "PONAMALE"}], "stage": "realestate"}, {"name": "Sarah & Florian CALIXTE", "firstName": "Sarah & Florian", "lastName": "CALIXTE", "email": "flo.sarah@outlook.fr", "envelope": 200000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n200 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 8 biens 🏠 8 biens présentés\nIl y a 49j", "matches": [{"id": "seed-202605200059", "firstName": "Florian", "lastName": "CALIXTE"}, {"id": "seed-202605200060", "firstName": "Florian", "lastName": "CALIXTE"}], "stage": "realestate"}, {"name": "Marie et Sasha LE FLOCH", "firstName": "Marie et Sasha LE", "lastName": "FLOCH", "email": "marielf@orange.fr", "envelope": 200000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n200 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j", "matches": [{"id": "seed-202605060053", "firstName": "Marie", "lastName": "LE FLOCH"}], "stage": "realestate"}, {"name": "Jerome DESSAIN", "firstName": "Jerome", "lastName": "DESSAIN", "email": "jeromedess@live.fr", "envelope": 120000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n120 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j", "matches": [], "stage": "realestate"}, {"name": "Hermann Kouamo", "firstName": "Hermann", "lastName": "Kouamo", "email": "hkouamo@gmail.com", "envelope": 215000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n215 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 43j", "matches": [], "stage": "realestate"}, {"name": "Gwennaelle OURY", "firstName": "Gwennaelle", "lastName": "OURY", "email": "gwenn_lecoadic@yahoo.fr", "envelope": 100000, "assignedSource": "ELODIE", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 ELODIE\n100 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 2 biens 🏠 2 biens présentés\nIl y a 49j", "matches": [{"id": "seed-202604150033", "firstName": "Gwennaël", "lastName": "LE COADIC"}], "stage": "realestate"}, {"name": "Geoffray LAMBERT", "firstName": "Geoffray", "lastName": "LAMBERT", "email": "geoffray.lambert@gmail.com", "envelope": 200000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n200 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 65j", "matches": [], "stage": "realestate"}, {"name": "Damien SOLVES", "firstName": "Damien", "lastName": "SOLVES", "email": "dolves.samien@gmail.com", "envelope": 140000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n140 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j", "matches": [{"id": "seed-202605060048", "firstName": "Damien", "lastName": "SOLVES"}], "stage": "realestate"}, {"name": "Corinne WALLEZ", "firstName": "Corinne", "lastName": "WALLEZ", "email": "corinnewallez@yahoo.fr", "envelope": 112000, "assignedSource": "elodie", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 elodie\n112 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 elodie\nIl y a 49j", "matches": [{"id": "seed-202605060043", "firstName": "Corinne", "lastName": "WALLEZ"}], "stage": "realestate"}, {"name": "Colombani Vetea Cusumano Laura", "firstName": "Colombani Vetea Cusumano", "lastName": "Laura", "email": "v.colombani130@gmail.com", "envelope": 290000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n290 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 5 biens 🏠 5 biens présentés\nIl y a 49j", "matches": [{"id": "seed-202607210111", "firstName": "Vétéa", "lastName": "COLOMBANI"}], "stage": "realestate"}, {"name": "Céline CHAUMARAT", "firstName": "Céline", "lastName": "CHAUMARAT", "email": "celine.chau@hotmail.fr", "envelope": 275000, "assignedSource": "ELODIE", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 ELODIE\n275 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 6 biens 🏠 6 biens présentés\nIl y a 29j", "matches": [{"id": "seed-202603310032", "firstName": "Céline", "lastName": "CHAUMARAT"}], "stage": "realestate"}, {"name": "Bertille RAGON", "firstName": "Bertille", "lastName": "RAGON", "email": "bertille.ragon@gmail.com", "envelope": 150000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n150 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 1 bien 🏠 1 bien présenté\nIl y a 8j", "matches": [{"id": "seed-202607230118", "firstName": "Bertille", "lastName": "RAGON"}], "stage": "realestate"}, {"name": "Vanessa Obi", "firstName": "Vanessa", "lastName": "Obi", "email": "obivanessa49@yahoo.fr", "envelope": 250000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n250 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\n⌂ 3 biens 🏠 3 biens présentés\nIl y a 65j", "matches": [{"id": "seed-202607210110", "firstName": "Vanessa", "lastName": "OBISSEMBEKI"}], "stage": "realestate"}, {"name": "Brigitte Mantezolo", "firstName": "Brigitte", "lastName": "Mantezolo", "email": "briige93@gmail.com", "envelope": 310000, "assignedSource": "Vincent Peronnet", "sourceStatus": "Actif", "sourceNotes": "Actif\n👤 Vincent Peronnet\n310 000 €\nÉtat Civil –\nPré-mandat –\nMandat –\nCourtage –\nCrédit –\nAgent assigné 👤 Vincent Peronnet\nIl y a 49j", "matches": [{"id": "seed-202606170083", "firstName": "Brigitte", "lastName": "MANTEZOLO"}], "stage": "realestate"}]);window.sigmaPreviewStorage.setItem(key,JSON.stringify({...result,at:new Date().toISOString()}));console.info("Import Pôle Immo",result);},100);});</script><script>window.sigmaStorageReady.then(()=>{const timer=setInterval(()=>{if(!window.SigmaCRM?.mergeMondouFamily)return;clearInterval(timer);window.SigmaCRM.mergeMondouFamily();},150);});</script></body></html><style>
 #sigma-crm-preview .sav-dropzone{min-height:96px;border:1px dashed #cbd5e1;border-radius:16px;padding:14px;transition:background .15s,border-color .15s}#sigma-crm-preview .sav-drop-active{background:#e8f2ff;border-color:#3773cb}#sigma-crm-preview .sav-dossier{cursor:grab;margin-bottom:12px}#sigma-crm-preview .sav-moves{display:flex;gap:8px;flex-wrap:wrap}#sigma-crm-preview .litige-footer{flex-wrap:wrap;gap:12px}#sigma-crm-preview .sav-pipe-return{margin-top:24px;text-align:center;color:#244775;background:#f3f7fc}#sigma-crm-preview .nav-number{margin-left:auto;flex-shrink:0;font-variant-numeric:tabular-nums}
 </style><script>(()=>{
 const root=document.getElementById('sigma-crm-preview');let queued=false;
